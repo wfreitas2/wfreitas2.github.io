@@ -1,0 +1,11 @@
+.bloco1, .bloco2{
+	padding: 8px;
+
+}
+
+.bloco1{
+	background-color: #aaa;
+}
+.bloco2{
+	background-color: #ddd;
+}
