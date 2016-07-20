@@ -16,3 +16,15 @@
 .corpo{
 	padding-top: 100px; 
 }
+button{
+	margin-top: 10px
+}
+img{
+	height: 130px;
+	width: 200px;
+	border: 1px solid black;
+	margin:20px;
+}
+i{
+	margin: 5px;
+}
