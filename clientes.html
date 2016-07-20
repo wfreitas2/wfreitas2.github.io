@@ -9,90 +9,76 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-
-	<div class="container-fluid ">
-		<nav class="navbar navbar-inverse ">
-		  <div class="container-fluid " >
-		    <div class="navbar-header ">
-		      <a class="navbar-brand" href="#">
-		        
-		        <a href="antigo/fotos/Rubrica.jpeg"><img class="imagem"alt="Brand" src="antigo/fotos/Rubrica.jpeg"></a>
-
-		        <a href="index.html"><button class="btn btn-success ">Home</button></a>
-		        <a href="sobre.html"><button class="btn btn-success">Quem somos?</button></a>
-		        <a href="servicos.html"><button class="btn btn-success">Serviços</button></a>
-		        <a href="motivos.html"><button class="btn btn-success">porque nos contratar</button></a>
-		        <a href="contato.html"> <button class="btn btn-success">Contato</button></a>
-		        <a href="clientes.html"><button class="btn btn-success">Clientes</button></a>
-		        <a href="social.html"><button class="btn btn-success">Ação Social</button></a>
-
-		        <form action="" class="form-search pull-right">
-					<input type="text" class="input-medium search-query ">
-					<button class="btn btn-warning">Busca</button>
-				</form>
-
-		      </a>
-		    </div>
-		  </div>
-		</nav>
-		<div class="row-fluid">
-
-		<div class="span12 bloco1">
-			<h1 class="pull-left">Cllientes</h1>
-			
-			<table class="table  table-bordered table-hover table-condensed">
-				<caption>LISTA DE CLIENTES</caption>
-				<thead>
-					<tr>
-					<th>Numero</th>
-					<th>Nome</th>
-					<th>Nota</th>
-					<th>Situação</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="success">
-						<td>01</td>
-						<td>Ana Maria</td>
-						<td>9.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="success">
-						<td>02</td>
-						<td>José Maria</td>
-						<td>9.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="success">
-						<td>03</td>
-						<td>Dna Maria</td>
-						<td>8.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="warning">
-						<td>04</td>
-						<td>Anita</td>
-						<td>7.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="error">
-						<td>05</td>
-						<td>Anabele</td>
-						<td>4.0</td>
-						<td>reprovada</td>
-					</tr>
-				</tbody>
-			</table>
-
-		</div>
-		
-
-		
-	</div>
-	</div>
 	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>  
+	<script type="text/javascript" src="js/bootstrap-modal.js"></script>
+
 	<script tipe="text/javascript" src="js/boostrap.js"></script>
-</body>
+</head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-inverse"><!--cria a navbar-->
+			<div class="navbar-inner"><!--começa a formataçõa da navbar-->
+				<div class="container"><!--agrupamento de botoes e links-->
+					<!--.btn-navbar usada como alternador de conteudo colapsavel-->
+					<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span><!--cria um botão quando a resolução for menos que a tela de apresentação-->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="nav-collapse collapse"><!--cria um botão quando a resolução for menos que a tela de apresentação-->
+						<ul class="nav">
+							<li><a href="index.html">link1</a></li>
+							<li><a href="">link2</a></li>
+							<li><a href="">link3</a></li>
+							<li><a href="">link4</a></li>
+							<li><a href="">link5</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header class="jumbotron subhead">
+			<div class="container">
+				<h1>componentes</h1>
+				<p>componentes de apresentação</p>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<aside class="span3 bs-docs-sidebar">
+					<ul class="nav nav-list bs-docs-sidenav">
+						<li><a href="#"><i class="icon-chevron-right"></i>link1</a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i>link2</a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i>link3</a></li>
+					</ul>
+				</aside>
+			</div>
+		</div>
+
+		<div class="span9">
+		</div>		
+		 <!-- Footer
+    ================================================== -->
+		    <footer class="footer">
+		      <div class="container">
+		        <p class="pull-right"><a href="#">Voltar ao topo</a></p>
+		        <p>Desenhado e construído com todo amor do mundo por <a href="http://twitter.com/mdo" target="_blank">@mdo</a> e <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+		        <p>Este projeto é uma versão do Twitter Bootstrap da globo.com mantido por <a href="http://blog.alexandremagno.net">Alexandre Magno</a>.</p>
+		        <p>Código licenciado sob <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentação sob <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0</a>.</p>
+		        <p><a href="http://glyphicons.com">Glyphicons grátis</a> licenciado sob <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0</a>.</p>
+		        <ul class="footer-links">
+		          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+		          <li class="muted">&middot;</li>
+		          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
+		          <li class="muted">&middot;</li>
+		          <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap e changelog</a></li>
+		        </ul>
+		      </div>
+		    </footer>
+
+
+	</body>
 </html>
