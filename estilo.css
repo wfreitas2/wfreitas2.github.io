@@ -1,7 +1,12 @@
 body{
 	padding-top: 40px;
 }
-.car{}
+.hero-unit{
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
 .bloco1, .bloco2{
 	padding: 8px;
 
@@ -22,6 +27,12 @@ body{
 }
 .corpo{
 	padding-top: 100px; 
+}
+.hero-unit{
+	background-image: url("antigo/fotos/rubrica.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 245px;
 }
 button{
 	margin-top: 10px
