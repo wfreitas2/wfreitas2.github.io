@@ -1,9 +1,12 @@
 body{
-	padding-top: 40px;
+	padding-top: 55px;
 }
 .bloco1, .bloco2{
 	padding: 8px;
 
+}
+.topo{
+	padding-top: 5px;
 }
 
 .bloco1{
