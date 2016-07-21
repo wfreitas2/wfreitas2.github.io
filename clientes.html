@@ -33,18 +33,26 @@
 							<ul class="nav">
 								<li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
 								<li><a href="sobre.html"><i class="icon-user icon-white"></i> Quem Somos</a></li>
-								<li><a href="servicos.html"><i class="icon-wrench icon-white"></i> Serviços</a></li>
-								<li><a href="clientes.html"><i class="icon-tags icon-white"></i> Clientes</a></li>
-								<li><a href="contatos.html"><i class="icon-screenshot icon-white"></i> Contatos</a></li>
-								<li><a href="social.html"><i class="icon-globe icon-white"></i> Ação Social</a></li>
-								<li><a href="motivos.html"><i class="icon-question-sign icon-white"></i> Porque Nós?</a></li>
+								<li class="dropdown"><!--criando um dropdown-->
+									<a href="servicos.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-wrench icon-white"></i>
+										Serviços
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="servicos.html"><i class="icon-wrench"></i>Serviços</a></li>
+										<li><a href="social.html"><i class="icon-globe"></i>Ação Social</a></li>
+									</ul>
+								</li>
+								<li><a href="clientes.html"><i class="icon-tags icon-white"></i>Clientes</a></li>
+								<li><a href="contatos.html"><i class="icon-screenshot icon-white"></i>Contatos</a></li>
+								<li><a href="motivos.html"><i class="icon-question-sign icon-white"></i>Porque Nós?</a></li>
 							</ul>
-							<form action="" class="form-search pull-right navbar-form ">
-								<input type="text" class="input-small search-query " >
-								<button class="btn btn-inverse btn-small"><i class="icon-search icon-white"></i>  Busca</button>
-							</form>
+							
 						</ul>
-						
+						<form action="" class="pull-right  navbar-form form-search ">
+							<input type="text" class=" search-query input-small " placeholder="pesquisa" >
+							<button class="btn btn-inverse "><i class="icon-search icon-white"></i>Busca</button>
+						</form>
 					</div>
 				</div>
 			</div>
