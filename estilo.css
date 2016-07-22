@@ -5,7 +5,7 @@ body{
 	background-image: url("img/fundo2.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 1100px
+	background-size: 1100px;
 }
 
 .esquerda{
@@ -173,7 +173,8 @@ i{
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(img/fundo.png) repeat center center;
+  background: url(img/fundo2.png) repeat center center;
+  background-size: 1800px;
   opacity: .4;
 }
 @media
