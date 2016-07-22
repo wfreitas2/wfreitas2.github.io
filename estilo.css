@@ -1,5 +1,5 @@
 body{
-	padding-top: 70px;
+	padding-top: 0px;
 }
 .hero-unit{
 	background-image: url("img/fundo2.png");
@@ -17,7 +17,10 @@ body{
 
 }
 .topo{
-	padding-top: 5px;
+	padding-top: 50px;
+}
+.topologo{
+	margin-top: 20px;
 }
 
 .bloco1{
@@ -26,9 +29,9 @@ body{
 .bloco2{
 	background-color: #ddd;
 }
-.imagem{
-	width: 100px;
-	height:100px;
+.imagemlogo{
+	width: 200px;
+	height:200px;
 }
 .corpo{
 	padding-top: 100px; 
@@ -88,7 +91,8 @@ i{
 ------------------------- */
 .jumbotron {
   position: relative;
-  padding: 40px 0;
+  margin-top: 0px;
+  padding: 10px 0;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
