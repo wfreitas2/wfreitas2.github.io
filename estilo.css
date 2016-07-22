@@ -2,9 +2,10 @@ body{
 	padding-top: 70px;
 }
 .hero-unit{
-	background-image: url("img/fundo.png");
+	background-image: url("img/fundo2.png");
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: center;
+	background-size: 1100px
 }
 
 .esquerda{
