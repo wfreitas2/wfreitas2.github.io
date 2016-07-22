@@ -1,309 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<meta name="description" content="teste bootstrap"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="teste bootstrap"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-	<title>teste bootstrap</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="estilo.css">
+		<title>teste bootstrap</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="estilo.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script>window.jquery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>  
+		<script type="text/javascript" src="js/bootstrap-modal.js"></script>
 
+		<script tipe="text/javascript" src="js/boostrap.js"></script>
+	</head>
 
+	<body>
+		<header class="header ">
+		<nav class="navbar navbar-fixed-top "><!--cria a navbar-->
+			<div class=" navbar-inner "><!--começa a formataçõa da navbar-->
+				<div class="container "><!--agrupamento de botoes e links-->
+					<!--.btn-navbar usada como alternador de conteudo colapsavel-->
+					<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span><!--cria um botão quando a resolução for menos que a tela de apresentação-->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="brand"><img src="img/logosite2.png" alt="" class=" imagemlogo"></a><!--a classe brand coloca um link bonitão-->
+					<!--tudo que fica aki será escondicdo com a resolução maior q 940px-->
+					<div class="nav-collapse collapse"><!--cria um botão quando a resolução for menos que a tela de apresentação-->
+						
+						<ul class=" nav navbar pull-right">
+							<ul class="nav navbar ">
+								<li><a href="index.html"><i class="icon-home "></i> Home</a></li>
+								
+								<li><a href="sobre.html"><i class="icon-user "></i> Quem Somos</a></li>
+								
+								<li><a href="servicos.html"><i class="icon-wrench"></i>Serviços</a></li>
+								
+								<li><a href="social.html"><i class="icon-globe"></i>Ação Social</a></li>
+								
+								<li><a href="clientes.html"><i class="icon-tags "></i>Clientes</a></li>
+								
+								<li class="dropdown">
+									<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-screenshot "></i>contatos
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="contato.html"><i class="icon-screenshot "></i>Contatos</a></li>
+										<li class="divider"></li>
+										<li><a href="motivos.html"><i class="icon-question-sign "></i>Porque Nós?</a></li>
+									</ul>
+									
+									
 
+								</li>								
+							</ul>
+							
+						</ul>
+						<!--
+						<form action="" class="pull-right  navbar-form form-search ">
+							<input type="text" class=" search-query input-small " placeholder="pesquisa" >
+							<button class="btn  "><i class="icon-search icon-white"></i>Busca</button>
+						</form>
+						-->
+					</div>
+				</div>
+			</div>
+		</nav>
+</header>
+		<!--<header class="jumbotron subhead">
+			<div class="container">
+				
+				<div class="container span3 pull-left ">
+					<img src="img/logosite.png" class="imagemlogo topologo fundo" alt="">
+				</div>
+				<div class="container topo span8">
+					<h1>Bem Vindo</h1>
+					<p>Aqui você estará em casa!!</p>
+				</div>
+				
 
-<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-         <!-- NOTE:: jquery 2.x does not support IE 8 so version 1.9.1 is used for older versions of IE
-                        :: calling jQuery in the head for ajax work if necessary.
-                        -->
-         <!--[if gt IE 8]><!-->
-                <script src="js/jquery.min.2.0.3.js"></script>
-                <!--<![endif]-->
-         <!--[if lt IE 9]>
-                <script src="assets/js/1.9.1-jquery.min.js"></script>
-                <![endif]-->
-         
-         <!-- WINDOWS 8 Phones BUG FIX -->
-         <script src="js/windows-fix.js"></script>
-
-         <!--[if lt IE 9]>
-          <script type="text/javascript" src="assets/js/selectivizr.js"></script>
-        <![endif]-->
-
-        <script src="js/bootstrap.min.js"></script> 
-        <script src="js/jquery.middle_base.js"></script>
-
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
-        <script src="js/jquery.bxslider.js"></script>
-        
-        <!-- FANCY BOX -->
-        <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
-        <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
-        <!--  -->
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.banner').bxSlider({
-                    pager: false,
-                    controls: false,
-                    auto: true,
-                    speed: 3000,
-                    mode: 'fade',
-                    touchEnabled: true
-                });
-            //zoom
-                $('.zoom').fancybox();
-                //zoom iframe
-                $(".iframe").fancybox({
-                    maxWidth    : 800,
-                    maxHeight   : 600,
-                    fitToView   : false,
-                    width       : '90%',
-                    height      : '90%',
-                    autoSize    : false,
-                    closeClick  : false,
-                    openEffect  : 'none',
-                    closeEffect : 'none'
-                });
-                //
-                $(".various").fancybox({
-                        maxWidth	: 800,
-                        maxHeight	: 600,
-                        fitToView	: false,
-                        width		: '70%',
-                        height		: '70%',
-                        autoSize	: false,
-                        closeClick	: false,
-                        openEffect	: 'none',
-                        closeEffect	: 'none'
-                    });
-                });
-        </script> 
-
-
-
-
-
-
-</head>
-<body class="corpo">
-
-	<div class="container-fluid ">
-		<nav id="nav" class="clearfix navbar-fixed-top" role="navigation"> 
-                        <div class="nav-wrapper clearfix">
-
-                            <!-- large logo -->
-                            <div class="logo-lg">
-                                <a href="index.html">
-                                    <img src="img/logo-3com-comuniccao-empresarial.png" alt="3COM Comunicação Empresarial"> </a>
-                            </div><!-- /logo -->
-
-                            <ul class="primary-nav">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="dot">/</li>
-                                <li><a href="quem-somos.html">Quem Somos</a></li>
-                                <li class="dot">/</li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" >
-                                        <li><a href="o-que-fazemos-assessoria-de-imprensa.html">Assessoria de Imprensa</a></li>
-                                        <li><a href="o-que-fazemos-videos.html">Vídeo</a></li>
-                                        <li><a href="o-que-fazemos-audios.html">Áudio</a></li>
-                                        <li><a href="o-que-fazemos-fotos.html">Fotografia</a></li>
-                                        <li><a href="o-que-fazemos-marketing-digital.html">Marketing Digital</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dot">/</li>
-                                <li><a href="clientes.html">Clientes</a></li>
-                                <li class="dot">/</li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imprensa<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="imprensa-release.html">Release</a></li>
-                                        <li><a href="imprensa-clipping.html">Clipping</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dot">/</li>
-                                <li><a href="contato.html">Contato</a></li>
-                            </ul>
-
-                        </div><!--/nav-wrapper -->
-                    </nav>
-
-		<div class="row-fluid">
-
-		<div class="span2 bloco2 "><!--offset1-->
-			
-			<h1 class="pull-right">BARRA LATERAL</h1>
-			
-			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius itaque consectetur, modi error placeat sunt eaque corporis sit repellat eos veniam consequatur quod ea dolorum voluptate doloremque mollitia dignissimos tempore.</p>
-
-			<abbr title="o que quer que descreva">texto normal</abbr>
-
-			<ul class="unstyled">
-				<li>menu1</li>
-				<li>menu2</li>
-				<li>menu3
-					<ul>
-						<li>sub menu1</li>
-						<li>sub menu2</li>
-						<li>sub menu3</li>
+			</div>
+		</header>
+-->
+		<div class="container">
+			<div class="row">
+				<aside class="span3 bs-docs-sidebar">
+					<ul class="nav nav-list bs-docs-sidenav">
+						<li ><a href="#btn-dropdown"><i class="icon-chevron-right"></i><center>Assessoria de Imprensa</center></a></li>
+						<li><a href="#Heroi"><i class="icon-chevron-right"></i><center>Gerenciamento de Redes Sociais</center></a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i><center>Conteudo Multimidia</center></a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i><center>Design Grafico</center></a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i><center>Web Design</center></a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i><center>Outros</center></a></li>
 					</ul>
-				</li>
-				<li>menu4</li>
-				<li>menu5</li>
-			</ul>
-			<ol class="inline">
-				<li>menu1</li>
-				<li>menu2</li>
-				<li>menu3</li>
-				<li>menu4</li>
-				<li>menu5</li>
-			</ul>
-			</ol>
-			<dl >
-				<dt>item 1</dt>
-				<dd>descrição da lista</dd>
-				<dt>item 2</dt>
-				<dd>descrição da lista</dd>
-				<dt>item 3</dt>
-				<dd>descrição da lista</dd>
-				<dt>item 4</dt>
-				<dd>descrição da lista</dd>
-				<dt>item 5</dt>
-				<dd>descrição da lista</dd>
-			</dl>
-			
 
-			<form action="" class="form-inline">
-				<input type="text" class="input-small" placeholder="email">
-				<input type="text"class="input-small" placeholder="senha">
-				<button class="btn">entrar</button>
-			</form>
-			
-			
+				</aside>
+				
+				<div class="span9">
 
-
-		</div>
-
-
-		<div class="span9 bloco1">
-			<h1 class="pull-left">Serviços</h1>
-			
-			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		
-			<table class="table  table-bordered table-hover table-condensed">
-				<caption>aprovados e reprovados</caption>
-				<thead>
-					<tr>
-					<th>Numero</th>
-					<th>Nome</th>
-					<th>Nota</th>
-					<th>Situação</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="success">
-						<td>01</td>
-						<td>Ana Maria</td>
-						<td>9.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="success">
-						<td>02</td>
-						<td>José Maria</td>
-						<td>9.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="success">
-						<td>03</td>
-						<td>Dna Maria</td>
-						<td>8.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="warning">
-						<td>04</td>
-						<td>Anita</td>
-						<td>7.0</td>
-						<td>aprovada</td>
-					</tr>
-					<tr class="error">
-						<td>05</td>
-						<td>Anabele</td>
-						<td>4.0</td>
-						<td>reprovada</td>
-					</tr>
-				</tbody>
-			</table>
-			
-
-			<form action="">
-				<input type="text" class="input-block-level"><!--inut do tamanho da div-->
-			</form>
-			<form action="">
-				<input class="input-mini" type="text" placeholder= "campo de texto"><br>
-				<input class="input-small" type="text" placeholder= "campo de texto"><br>
-				<input class="input-medium" type="text" placeholder= "campo de texto"><br>
-				<input class="input-large" type="text" placeholder= "campo de texto"><br>
-				<input class="input-xlarge" type="text" placeholder= "campo de texto"><br>
-				<input class="input-xxlarge" type="text" placeholder= "campo de texto"><br>
-			</form>
-			
-			<form action="">
-				<div class="controls">
-				<input type="text" class="span5">
-				</div>
-				<div class="controls controls-row">
-				<input type="text"class="span4">
-				<input type="text" class="span1">
-				</div >
-			</form>
-
-
-			<form action="" class="form-horizontal">
-				<div class="control-group">
-					<label for="" class="control-label">Email</label>
-					<div class="controls">
-						<input type="text" id="inputEmail">
+				
+					<div class="row ">
+						
+						<div class="container  span10">
+							<aside class="hero-unit  esquerda">
+								<h2>Algum Serviço aki</h1>
+								<p>conheça a nossa comunicação<p>
+									<a href="#" class="btn">teste</a>
+							</aside>
+						</div>
 					</div>
-				</div>
-				<div class="control-group">
-					<label for="" class="control-label">Senha</label>
-					<div class="controls">
-						<input type="text" id="ipoutPassword">
-
-						<button class="btn">entrar</button>
-
+					<div class="row">
+						
+							<div class="container  span10">
+								<aside class="hero-unit esquerda">
+								<h2>Outro Serviço aki</h1>
+								<p>conheça a nossa comunicação<p>
+								
+							</aside>
+							</div>
+						
 					</div>
+					<div class="row">
+						
+							<div class="container  span10">
+								<aside class="hero-unit esquerda">
+								<h2>Outro Serviço aki</h1>
+								<p>conheça a nossa comunicação<p>
+								
+							</aside>
+							</div>
+						
+					</div>
+
+
 				</div>
-			</form>
+			</div><!--row-->
+		</div><!--container-->
 
-		</div>
+				
+		 <!-- Footer
+    		 <!-- Footer
+    ================================================== -->
+		    <footer class="footer">
+		      <div class="container">
+		        <p class="pull-right"><a href="#">Voltar ao topo</a></p>
+		        <p>
+			        <a href="" target="_blank"></a>  
+			        <a href="3" target="_blank"></a>
+			    </p>
+
+		        <p>Este site esta em construção<a href="#"></a>.</p>
+		        <p><a href="" target="_blank">
+		        <ul class="footer-links">
+		          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+		          <li class="muted">&middot;</li>
+		          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
+		          <li class="muted">&middot;</li>
+		          <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap e changelog</a></li>
+		        </ul>
+		      </div>
+		    </footer>
 
 
-
-		
-	</div>
-	</div>
-	
-	<script tipe="text/javascript" src="js/boostrap.js"></script>
-</body>
+	</body>
 </html>

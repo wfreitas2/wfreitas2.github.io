@@ -1,5 +1,8 @@
 body{
-	padding-top: 0px;
+	padding-top: 140px;
+}
+.fundo{
+	background-color: #babaca;
 }
 .hero-unit{
 	background-image: url("img/fundo2.png");
@@ -31,7 +34,7 @@ body{
 }
 .imagemlogo{
 	width: 200px;
-	height:200px;
+	height:70px;
 }
 .corpo{
 	padding-top: 100px; 
