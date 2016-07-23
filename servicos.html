@@ -20,39 +20,42 @@
 
 	<body>
 		<header class="header ">
-		<nav class="navbar navbar-fixed-top "><!--cria a navbar-->
+		<nav class="navbar navbar-fixed-top  "><!--cria a navbar-->
 			<div class=" navbar-inner "><!--começa a formataçõa da navbar-->
 				<div class="container "><!--agrupamento de botoes e links-->
 					<!--.btn-navbar usada como alternador de conteudo colapsavel-->
-					<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<button class="btn btn-navbar " data-toggle="collapse" data-target=".nav-collapse">
 						<span class="icon-bar"></span><!--cria um botão quando a resolução for menos que a tela de apresentação-->
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.html" class="brand"><img src="img/logosite2.png" alt="" class=" imagemlogo"></a><!--a classe brand coloca um link bonitão-->
+					<!--<a href="index.html" class="brand"><img src="img/logosite2.png" alt="" class=" imagemlogo"></a><!--a classe brand coloca um link bonitão-->
 					<!--tudo que fica aki será escondicdo com a resolução maior q 940px-->
 					<div class="nav-collapse collapse"><!--cria um botão quando a resolução for menos que a tela de apresentação-->
 						
-						<ul class=" nav navbar pull-right">
+						<ul class=" nav navbar pull-left topo">
+
 							<ul class="nav navbar ">
-								<li><a href="index.html"><i class="icon-home "></i> Home</a></li>
+
+								<li><a href="index.html"> <p class="letracolorida"><i class="icon-home"></i> Home</p></a></li>
 								
-								<li><a href="sobre.html"><i class="icon-user "></i> Quem Somos</a></li>
+								<li><a href="sobre.html"><p class="letracolorida"><i class="icon-user "></i> Quem Somos</p></a></li>
 								
-								<li><a href="servicos.html"><i class="icon-wrench"></i>Serviços</a></li>
+								<li><a href="servicos.html"><p class="letracolorida"><i class="icon-wrench"></i>Serviços</p></a></li>
+
+								<li><a href="clientes.html"><p class="letracolorida"><i class="icon-tags "></i>Clientes</p></a></li>
 								
-								<li><a href="social.html"><i class="icon-globe"></i>Ação Social</a></li>
-								
-								<li><a href="clientes.html"><i class="icon-tags "></i>Clientes</a></li>
+								<li><a href="social.html"><p class="letracolorida"><i class="icon-globe"></i>Ação Social</p></a></li>
+
 								
 								<li class="dropdown">
-									<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-screenshot "></i>contatos
-										<b class="caret"></b>
+									<a href="" class="dropdown-toggle" data-toggle="dropdown"><p class="letracolorida"><i class="icon-screenshot "></i>Contatos
+										<b class="caret"></b></p>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="contato.html"><i class="icon-screenshot "></i>Contatos</a></li>
+										<li><a href="contato.html"><p class="letracolorida"><i class="icon-screenshot "></i>Contatos</p></a></li>
 										<li class="divider"></li>
-										<li><a href="motivos.html"><i class="icon-question-sign "></i>Porque Nós?</a></li>
+										<li><a href="motivos.html"><p class="letracolorida"><i class="icon-question-sign "></i>Porque Nós?</p></a></li>
 									</ul>
 									
 									
@@ -61,12 +64,14 @@
 							</ul>
 							
 						</ul>
-						<!--
-						<form action="" class="pull-right  navbar-form form-search ">
+						<div >	
+							<form action="" class="pull-right  navbar-form form-search topo ">
 							<input type="text" class=" search-query input-small " placeholder="pesquisa" >
-							<button class="btn  "><i class="icon-search icon-white"></i>Busca</button>
-						</form>
-						-->
+							<button class="btn btn-warning "><i class="icon-search "></i>Busca</button>
+							</form>
+						</div>
+						
+						
 					</div>
 				</div>
 			</div>
@@ -76,21 +81,21 @@
 			<div class="container">
 				
 				<div class="container span3 pull-left ">
-					<img src="img/logosite.png" class="imagemlogo topologo fundo" alt="">
+					<img src="img/logosite.png" class="imagemlogo topologo " alt="">
 				</div>
 				<div class="container topo span8">
-					<h1>Bem Vindo</h1>
+					<h1 >Bem Vindo</h1>
 					<p>Aqui você estará em casa!!</p>
 				</div>
 				
 
 			</div>
-		</header>
--->
-		<div class="container">
-			<div class="row">
-				<aside class="span3 bs-docs-sidebar">
-					<ul class="nav nav-list bs-docs-sidenav">
+			-->
+			<div class="container ">
+				<div class="container span3">
+					<a href=""><img class="imagemlogo"src="img/logosite2.png" alt="" class="img"></a>
+					<aside class="span3 bs-docs-sidebar">
+					<ul class="nav nav-list bs-docs-sidenav"  >
 						<li ><a href="#btn-dropdown"><i class="icon-chevron-right"></i><center>Assessoria de Imprensa</center></a></li>
 						<li><a href="#Heroi"><i class="icon-chevron-right"></i><center>Gerenciamento de Redes Sociais</center></a></li>
 						<li><a href="#"><i class="icon-chevron-right"></i><center>Conteudo Multimidia</center></a></li>
@@ -100,23 +105,34 @@
 					</ul>
 
 				</aside>
-				
-				<div class="span9">
+				</div>
+				<div class="container span8 pull-right">
+					<a href=""><img class="imagemdireita"src="img/site.png" alt="" class="img"></a>
+				</div>
 
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="row">
 				
+				
+				<div class="span8">
+
+				<!--
 					<div class="row ">
 						
-						<div class="container  span10">
+						<div class="container  span9">
 							<aside class="hero-unit  esquerda">
 								<h2>Algum Serviço aki</h1>
-								<p>conheça a nossa comunicação<p>
+								<p>Mudar porque nos contratar e colocar em quem somos<p>
 									<a href="#" class="btn">teste</a>
 							</aside>
 						</div>
 					</div>
 					<div class="row">
 						
-							<div class="container  span10">
+							<div class="container  span9">
 								<aside class="hero-unit esquerda">
 								<h2>Outro Serviço aki</h1>
 								<p>conheça a nossa comunicação<p>
@@ -127,7 +143,7 @@
 					</div>
 					<div class="row">
 						
-							<div class="container  span10">
+							<div class="container  span9">
 								<aside class="hero-unit esquerda">
 								<h2>Outro Serviço aki</h1>
 								<p>conheça a nossa comunicação<p>
@@ -136,7 +152,7 @@
 							</div>
 						
 					</div>
-
+					-->
 
 				</div>
 			</div><!--row-->
