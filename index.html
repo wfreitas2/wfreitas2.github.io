@@ -19,40 +19,43 @@
 	</head>
 
 	<body>
-		<header class="header ">
-		<nav class="navbar navbar-fixed-top "><!--cria a navbar-->
-			<div class=" navbar-inner "><!--começa a formataçõa da navbar-->
+			<header class="header ">
+		<nav class="navbar navbar-fixed-top  "><!--cria a navbar-->
+			<div class=" navbar-inner fundonav "><!--começa a formataçõa da navbar-->
 				<div class="container "><!--agrupamento de botoes e links-->
 					<!--.btn-navbar usada como alternador de conteudo colapsavel-->
-					<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<button class="btn btn-navbar " data-toggle="collapse" data-target=".nav-collapse">
 						<span class="icon-bar"></span><!--cria um botão quando a resolução for menos que a tela de apresentação-->
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.html" class="brand">--Nossa Comunicação--</a><!--a classe brand coloca um link bonitão-->
+					<!--<a href="index.html" class="brand"><img src="img/logosite2.png" alt="" class=" imagemlogo"></a><!--a classe brand coloca um link bonitão-->
 					<!--tudo que fica aki será escondicdo com a resolução maior q 940px-->
 					<div class="nav-collapse collapse"><!--cria um botão quando a resolução for menos que a tela de apresentação-->
 						
-						<ul class=" nav navbar">
+						<ul class=" nav navbar pull-left topo">
+
 							<ul class="nav navbar ">
-								<li><a href="index.html"><i class="icon-home "></i> Home</a></li>
+
+								<li><a href="index.html"> <p class="letracolorida"><i class="icon-home"></i> Home</p></a></li>
 								
-								<li><a href="sobre.html"><i class="icon-user "></i> Quem Somos</a></li>
+								<li><a href="sobre.html"><p class="letracolorida"><i class="icon-user "></i> Quem Somos</p></a></li>
 								
-								<li><a href="servicos.html"><i class="icon-wrench"></i>Serviços</a></li>
+								<li><a href="servicos.html"><p class="letracolorida"><i class="icon-wrench"></i>Serviços</p></a></li>
+
+								<li><a href="clientes.html"><p class="letracolorida"><i class="icon-tags "></i>Clientes</p></a></li>
 								
-								<li><a href="social.html"><i class="icon-globe"></i>Ação Social</a></li>
-								
-								<li><a href="clientes.html"><i class="icon-tags "></i>Clientes</a></li>
+								<li><a href="social.html"><p class="letracolorida"><i class="icon-globe"></i>Ação Social</p></a></li>
+
 								
 								<li class="dropdown">
-									<a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-screenshot "></i>contatos
-										<b class="caret"></b>
+									<a href="" class="dropdown-toggle" data-toggle="dropdown"><p class="letracolorida"><i class="icon-screenshot "></i>Contatos
+										<b class="caret"></b></p>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="contato.html"><i class="icon-screenshot "></i>Contatos</a></li>
+										<li><a href="contato.html"><p class="letracolorida"><i class="icon-screenshot "></i>Contatos</p></a></li>
 										<li class="divider"></li>
-										<li><a href="motivos.html"><i class="icon-question-sign "></i>Porque nos contratar?</a></li>
+										<li><a href="motivos.html"><p class="letracolorida"><i class="icon-question-sign "></i>Porque Nós?</p></a></li>
 									</ul>
 									
 									
@@ -61,12 +64,14 @@
 							</ul>
 							
 						</ul>
-						<!--
-						<form action="" class="pull-right  navbar-form form-search ">
+						<div >	
+							<form action="" class="pull-right  navbar-form form-search topo ">
 							<input type="text" class=" search-query input-small " placeholder="pesquisa" >
-							<button class="btn  "><i class="icon-search icon-white"></i>Busca</button>
-						</form>
-						-->
+							<button class="btn btn-warning "><i class="icon-search "></i>Busca</button>
+							</form>
+						</div>
+						
+						
 					</div>
 				</div>
 			</div>
