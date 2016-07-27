@@ -1,7 +1,14 @@
 	body{
 		padding-top: 120px;
 	}
-
+	.opacidade{
+		opacity: .5;
+	}
+	.imagemtopo{
+		width: 46%;
+		height: 100px;
+		opacity: .4
+	}
 	.textocentro{
 		text-align: center;
 
@@ -12,6 +19,7 @@
 	.letracolorida{
 		color: #0000FF;
 		font-weight: bold;
+		font-size: 12px;
 	}
 	.hero-unit{
 		background-image: url("img/fundo3.png");
@@ -21,7 +29,7 @@
 	}
 	.fundonav{
 		background-image: url("img/fundonav.png");
-		background-size: 1200px;
+		background-size: 2800px;
 		padding: 0px;
 
 
@@ -34,27 +42,32 @@
 		margin-left: 14px;
 	}
 
-	.bloco1, .bloco2{
+	.bloco1, .bloco2, .bloco3{
 		padding: 2px;
+
 
 	}
 	.topo{
-		padding-top: 20px;
+		padding-top: 100px;
+
 	}
 	.topologo{
 		margin-top: 20px;
 	}
+	.bloco3{
+		background-color: #0000FF;
 
+	}
 	.bloco1{
-		background-color: #aaa;
+		background-color: #00ff00;
 	}
 	.bloco2{
-		background-color: #ddd;
+		background-color: #ff0000;
 	}
 
 	.imagemlogo{
-		width: 500px;
-		height:230px;
+		width: 250px;
+		height:150px;
 	}
 	.imagemanuncio{
 		width: 70px;
@@ -137,6 +150,17 @@
 
 	/* Base class
 	------------------------- */
+
+
+	.jumbotron2 {
+	  position: relative;
+	  margin-top: 0px;
+	  padding: 0px 0;
+	  color: #000;
+	  text-align: center;
+	  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	 
+	}
 	.jumbotron {
 	  position: relative;
 	  margin-top: 0px;
