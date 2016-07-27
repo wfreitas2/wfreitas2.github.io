@@ -109,10 +109,15 @@
 	.bloco2{
 		background-color: #ff0000;
 	}
-
+	.falando{
+		padding-top: 20px;
+		width: 150px;
+		height: 30px;
+	}
 	.imagemlogo{
-		width: 250px;
-		height:150px;
+		padding-top: 20px;
+		width: 280px;
+		height:90px;
 	}
 	.imagemanuncio{
 		width: 70px;
