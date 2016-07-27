@@ -48,7 +48,10 @@
 
 	}
 	.topo{
-		padding-top: 100px;
+		padding-top: 30px;
+	}
+	.topo1{
+		padding-top: 20px;
 
 	}
 	.topologo{
@@ -106,9 +109,11 @@
 	button{
 		margin-top: 10px
 	}
+	.imgpeq{height: 30px;
+		width: 30px;}
 	img{
 		height: 80px;
-		width: 100px;
+		width: 80px;
 		
 		margin:0px;
 	}
