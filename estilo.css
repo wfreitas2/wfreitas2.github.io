@@ -1,6 +1,38 @@
 	body{
 		padding-top: 120px;
 	}
+	.corn{
+		color: #1671b9;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.coro{
+		color: #e18c12;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.cors1{
+		color: #e12a4e;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.cors2{
+		color: #de1212;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.cora{
+		color: #e0c212;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	
+	
+	
+	
+	
+
+
 
 	.span25{
 		width: 250px;
