@@ -1,6 +1,13 @@
 body{
 		
 	}
+
+.b1{
+	background-image: url("imgwtf/fundo.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	
+}	
 	p5:hover{
 		text-decoration: overline;
 		color: green;	}
@@ -10,32 +17,32 @@ body{
 	.corn{
 		color: #1671b9;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.coro{
 		color: #e18c12;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.cors1{
 		color: #de8c9d;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.cors2{
 		color: #de1212;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.cora{
 		color: #e0c212;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.corcom{
 		color: #035458;
 		font-weight: bold;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.span25{
 		width: 250px;
@@ -193,10 +200,11 @@ body{
 	-------------------------------------------------- */
 
 	.footer {
-	  padding: 70px 0;
+	  padding: 	70px 0;
 	  margin-top: 70px;
 	  border-top: 1px solid #e5e5e5;
 	  background-color: #f5f5f5;
+
 	}
 	.footer p {
 	  margin-bottom: 0;
