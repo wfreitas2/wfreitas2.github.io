@@ -6,6 +6,7 @@ body{
 	background-image: url("imgwtf/fundo.png");
 	background-repeat: no-repeat;
 	background-position: top;
+	background-size: 100%;
 	
 }	
 	p5:hover{
@@ -53,7 +54,7 @@ body{
 
 	}
 	.opacidade{
-		opacity: .9;
+		opacity: .8;
 	}
 	.imagemtopo{
 		width: 46%;
