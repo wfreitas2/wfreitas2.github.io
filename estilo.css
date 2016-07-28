@@ -1,5 +1,11 @@
-	body{
-		padding-top: 120px;
+body{
+		
+	}
+	p5:hover{
+		text-decoration: overline;
+		color: green;	}
+	.topping{
+		padding-top:  140px;
 	}
 	.corn{
 		color: #1671b9;
@@ -31,20 +37,16 @@
 		font-weight: bold;
 		font-size: 12px;
 	}
-	
-	
-	
-	
-	
-
-
-
 	.span25{
 		width: 250px;
 
 	}
+	.span15{
+		width: 120px;
+
+	}
 	.opacidade{
-		opacity: .5;
+		opacity: .9;
 	}
 	.imagemtopo{
 		width: 46%;
@@ -82,7 +84,7 @@
 		margin-right: 17px;
 	}
 	.direita{
-		margin-left: 14px;
+		margin-left: 100px;
 	}
 
 	.bloco1, .bloco2, .bloco3{
@@ -95,6 +97,9 @@
 	.topo1{
 		padding-top: 10px;
 
+	}
+	.topo2{
+		padding-top: 0px;
 	}
 	.topologo{
 		margin-top: 20px;
@@ -156,9 +161,18 @@
 	button{
 		margin-top: 10px
 	}
+	.imgpeqface{
+		height: 25px;
+		width: 25px;
+		padding: 2px;
+		border: solid;
+		border-width: 0.5px;
+	}
 	.imgpeq{
-		height: 30px;
-		width: 30px;
+		height: 25px;
+		width: 25px;
+		padding: 2px;
+
 	}
 	img{
 		height: 80px;
