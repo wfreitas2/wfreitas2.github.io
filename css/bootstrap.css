@@ -323,7 +323,7 @@ a:hover {
   width: 380px;
 }
 
-.span4 {
+.span4 { 
   width: 300px;
 }
 
@@ -385,6 +385,9 @@ a:hover {
 
 .offset1 {
   margin-left: 100px;
+}
+.offset1-5{
+  margin-left: 80px;
 }
 
 .row-fluid {
