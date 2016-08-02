@@ -1,0 +1,22 @@
+.headerdescendo{
+	position: ;
+	width: 100%;
+	height: 10px;
+	min-height: 10px;
+	background: white;
+	background-image: url("imgwtf/cabeçalho.png");
+	-webkit-transition: height 1s;
+	transition: height 1s, background-image 1s;
+
+}
+.headerdescendo:hover{
+	background-image: url("imgwtf/cabeçalho.png");
+	height: 175px;
+}
+.headerdescendo p {
+	color: white;
+	  font-size: 14px;
+	  font-weight: 300;
+	  line-height: 1.25;
+	  margin-bottom: 30px;
+	}

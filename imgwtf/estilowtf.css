@@ -2,18 +2,14 @@ body{
 		
 	}
 
+	h1{color:red;}
+
 .setadir{
 	margin-top: 0px;
 	margin-left: 6px
 }
 
-.fotocar{
-	background-image: url("fundo.png");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: 100%;
-	
-}	
+
 .b1{
 	background-image: url("fundo.png");
 	background-repeat: no-repeat;
@@ -196,7 +192,15 @@ body{
 		padding: 2px;
 
 	}
-	.imagemcarroseu{
+			.fotocar{
+	background-image: url("fundo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+	.tamanhoCarousel{
+
 		width: 80px;
 		height: 300px;
 	}
@@ -245,7 +249,36 @@ body{
 
 	/* Base class
 	------------------------- */
+.texto{
+	position: relative;
+	  margin-top: 0px;
+	  padding: 0px 0;
+	  color: #fff;
+	  text-align: center;
+	  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
 
+}
+.texto h1 {
+	  font-size: 80px;
+	  font-weight: bold;
+	  letter-spacing: -1px;
+	  line-height: 1;
+	}
+	.texto p {
+	  font-size: 22px;
+	  font-weight: 300;
+	  line-height: 1.25;
+	  margin-bottom: 30px;
+	}
+
+	/* Link styles (used on .masthead-links as well) */
+	.texto a {
+	  color: #fff;
+	  color: rgba(255,255,255,.5);
+	  -webkit-transition: all .2s ease-in-out;
+	     -moz-transition: all .2s ease-in-out;
+	          transition: all .2s ease-in-out;
+	}
 
 	.jumbotron2 {
 	  position: relative;
