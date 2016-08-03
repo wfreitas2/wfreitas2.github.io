@@ -695,7 +695,32 @@
    }	
 
 }
-@media(m)
+
+.header1{
+   text-align: center;
+            font-size: 72px;
+            line-height: 108px;
+            height: 2008px;
+            background-color: transparent;
+            color: #fff;
+            font-family: 'PT Sans', sans-serif;
+            
+            
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+
+.header1.sticky {
+   position: fixed;
+            font-size: 24px;
+            line-height: 48px;
+            height: 48px; 
+            width: 100%;
+           background-color: transparent;
+            text-align: left;
+            padding-left: 20px;
+}
+
 /*
 
 
