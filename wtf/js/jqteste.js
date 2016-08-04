@@ -17,11 +17,14 @@ $(window).scroll(function() {
 if ($(this).scrollTop() > 2){  
 
 
-    $("#panel").slideUp("slow");
+    $("#panel").slideUp("1000");
+    $("#fade").fadeOut("30000");
   }
   
   else{
 
-$("#panel").slideDown("slow");
+$("#panel").slideDown("1000");
+$("#fade").fadeIn("30000");
+
   }
 });

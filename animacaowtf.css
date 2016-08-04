@@ -770,15 +770,3 @@
 
 
 
-#panel, #flip {
-    height: 5px;
-    
-    background-color: transparent;
-    border: solid 1px #c3c3c3;
-    z-index: auto;
-}
-
-#panel {
-	height: 190px;
-    display: inherit;
-}
