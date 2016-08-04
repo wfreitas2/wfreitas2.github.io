@@ -17,14 +17,14 @@ $(window).scroll(function() {
 if ($(this).scrollTop() > 2){  
 
 
-    $("#panel").slideUp("1000");
-    $("#fade").fadeOut("30000");
+    $("#panel").slideUp(1000);
+    //$("#fade").fadeOut(3000);
   }
   
   else{
 
-$("#panel").slideDown("1000");
-$("#fade").fadeIn("30000");
+$("#panel").slideDown(1000);
+//$("#fade").fadeIn(3000);
 
   }
 });
