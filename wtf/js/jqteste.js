@@ -1,14 +1,27 @@
 $(window).scroll(function() {
-if ($(this).scrollTop() > 1){  
+if ($(this).scrollTop() > 2){  
     $('header').addClass("sticky");
-    $('#esconde').hide(1000);
-    
+    $('#esconde').slideUp(1000);
+
+   ;
   }
   else{
     $('header').removeClass("sticky");
-     $('#esconde').show(1000);
+    $('#esconde').show(1000);
 
   }
 });
 
-headerdescendo
+$(window).scroll(function() {
+	
+if ($(this).scrollTop() > 2){  
+
+
+    $("#panel").slideUp("slow");
+  }
+  
+  else{
+
+$("#panel").slideDown("slow");
+  }
+});
