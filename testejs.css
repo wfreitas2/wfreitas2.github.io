@@ -8,8 +8,7 @@
     border: none;
     z-index: auto;
 
-            -webkit-transition:background-image() ;
-            transition:background-image();
+
 }
 
 #panel{
@@ -20,6 +19,5 @@
 	height: 25%;
     display: inherit;
     border: none;
-     -webkit-transition:background-image() ;
-            transition:background-image();
+
 }
