@@ -17,7 +17,7 @@
 	background-image: url("imgwtf/bg-wtf.png");
 	background-position: center;
 	width: 100%;
-	height: 190px;
+	height: 25%;
     display: inherit;
     border: none;
      -webkit-transition:background-image() ;

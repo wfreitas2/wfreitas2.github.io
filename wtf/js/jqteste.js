@@ -1,30 +1,16 @@
 $(window).scroll(function() {
-if ($(this).scrollTop() > 2){  
-    $('header').addClass("sticky");
-    $('#esconde').slideUp(1000);
-
-   ;
-  }
-  else{
-    $('header').removeClass("sticky");
-    $('#esconde').show(1000);
-
-  }
-});
-
-$(window).scroll(function() {
 	
-if ($(this).scrollTop() > 2){  
+if ($(this).scrollTop() > 80){  
 
 
     $("#panel").slideUp(1000);
-    //$("#fade").fadeOut(3000);
+
   }
   
   else{
 
 $("#panel").slideDown(1000);
-//$("#fade").fadeIn(3000);
+
 
   }
 });
