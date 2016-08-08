@@ -3,10 +3,12 @@
 }
 
 .topolateral{
-	margin-top: 400px;
+	margin-top: 350px;
 }
 .topocentro{
+
 	margin-top: 200px;
+	z-index: -1;
 
 
 

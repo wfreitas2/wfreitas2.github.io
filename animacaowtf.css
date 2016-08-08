@@ -723,7 +723,7 @@
     height: 5px;
     width: 100%;
     border: none;
-    z-index: auto;
+    
 -webkit-transition:background-image() ;
             transition:background-image();
            
@@ -736,6 +736,7 @@
 	height: 29%;
     display: inherit;
     border: none;
+    
      -webkit-transition:background-image() ;
             transition:background-image();
 }

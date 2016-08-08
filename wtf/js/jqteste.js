@@ -16,18 +16,18 @@ $("#panel").slideDown(400);
 });
 
 $(window).scroll(function() {
-  
-if ($(this).scrollTop() > 80){  
 
+if ($(this).scrollTop() < 80){  
+$("aparece").wrap("<div></div>")
 
-    $("#aparece").show(1000);
+    $("#aparece").hide(900);
 //$("#resto").removeClass("offset1");
 
   }
   
   else{
 
-$("#aparece").hide(1000);
+$("#aparece").show(900);
 //    $("#resto").addClass("offset1");
 
 
