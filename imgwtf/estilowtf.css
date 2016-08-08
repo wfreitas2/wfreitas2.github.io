@@ -1,5 +1,16 @@
+.fixa{
+	position: absolute;
+}
+
+.topolateral{
+	margin-top: 400px;
+}
+.topocentro{
+	margin-top: 200px;
 
 
+
+}
 
 
 
@@ -26,7 +37,7 @@
 		color: green;	}
 	.topping{
 		
-		margin-top: 100px;
+		margin-top: 15%;
 	}
 	.corn{
 		color: #1671b9;
