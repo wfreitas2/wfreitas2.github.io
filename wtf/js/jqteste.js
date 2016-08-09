@@ -18,7 +18,8 @@ $("#panel").slideDown(400);
 $(window).scroll(function() {
 
 if ($(this).scrollTop() < 80){  
-$("aparece").wrap("<div></div>")
+ 
+
 
     $("#aparece").hide(900);
 //$("#resto").removeClass("offset1");
@@ -27,7 +28,7 @@ $("aparece").wrap("<div></div>")
   
   else{
 
-$("#aparece").show(900);
+    $("#aparece").show(900);
 //    $("#resto").addClass("offset1");
 
 

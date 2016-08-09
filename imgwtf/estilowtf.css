@@ -1,17 +1,24 @@
 .fixa{
-	position: absolute;
+	position: inherit;
 }
 
 .topolateral{
-	margin-top: 350px;
+	margin-top: 200px;
+
 }
 .topocentro{
 
 	margin-top: 200px;
+	position: ;
 	z-index: -1;
 
 
 
+}
+.topobarra{
+		margin-top: 100px;
+	position: ;
+	z-index: -1;
 }
 
 
