@@ -36,5 +36,5 @@ if ($(this).scrollTop() < 1){
 });
 function inicio(){
   $("#aparece").hide();
-
+$("#panel").show();
 }
