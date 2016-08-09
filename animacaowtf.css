@@ -737,7 +737,7 @@
 	height: 29%;
     display: inherit;
     border: none;
-    z-index: 3;
+    z-index: 4;
      -webkit-transition:background-image() ;
             transition:background-image();
 }
