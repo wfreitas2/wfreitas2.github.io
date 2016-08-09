@@ -623,7 +623,7 @@
 	   
 
 	}
-@media (max-width: 2000px){	
+
 	@-ms-keyframes bibi {
 		 0%   {-ms-transform: scale(1,1); }
 	    
@@ -651,8 +651,8 @@
 	    100% {-webkit-transform: scale(1,1); }
 	   
 	}
-}
-@media (max-width: 900px){	
+
+
 	@-ms-keyframes bibi {
 		 0%   {-ms-transform: scale(.8,.8); }
 	    
@@ -680,7 +680,7 @@
 	    100% {-webkit-transform: scale(.8,.8); }
 	   
 	}
-}
+
 
 	.bibi:img{
 		max-width: 100%;
