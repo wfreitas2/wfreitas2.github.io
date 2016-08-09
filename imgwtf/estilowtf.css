@@ -11,8 +11,10 @@
 	margin-top: 200px;
 	position: ;
 	z-index: -1;
+}
 
-
+.iconesbarratopo{
+	margin-top: 4%;
 
 }
 .topobarra{
@@ -25,7 +27,22 @@
 
 	z-index: 2;
 }
+.fundobarra{
+	background-image: url("imgwtf/fundo.png");
+	background-size: 100%;
+}
 
+.logobrand{
+	width: 15%;
+	height: auto;
+
+
+}
+.logobrandim{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
 
 
 
