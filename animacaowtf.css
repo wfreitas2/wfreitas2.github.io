@@ -715,7 +715,7 @@
 /*-----------------------------------bibi----------------------------------------------*/
 
 
-@media (max-width: 1400px){	
+
 #panel{
 	
 	background-position: center;
@@ -741,7 +741,7 @@
      -webkit-transition:background-image() ;
             transition:background-image();
 }
-}
+
 
 
 /*-----------------------------------------bonecofinal------------------------------------------------------------*/
