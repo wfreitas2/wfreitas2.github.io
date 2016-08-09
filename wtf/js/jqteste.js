@@ -34,3 +34,7 @@ if ($(this).scrollTop() < 80){
 
   }
 });
+function inicio(){
+  $("#aparece").hide();
+
+}
