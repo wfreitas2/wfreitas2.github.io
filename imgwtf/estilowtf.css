@@ -22,6 +22,15 @@
 	position: ;
 	z-index: 0
 }
+@media (max-width:968px) { 
+
+	.barra{
+	margin-top: 100px;
+
+	z-index: 2;
+}
+}
+
 .barra{
 
 
