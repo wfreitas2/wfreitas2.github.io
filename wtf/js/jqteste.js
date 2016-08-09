@@ -1,6 +1,6 @@
 $(window).scroll(function() {
 	
-if ($(this).scrollTop() > 80){  
+if ($(this).scrollTop() > 1){  
 
 
     $("#panel").slideUp(400);
