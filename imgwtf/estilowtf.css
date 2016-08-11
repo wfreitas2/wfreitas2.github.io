@@ -1,28 +1,30 @@
 h1{color: red}
 i{margin: 15px;}
 
+.borda0{
+	border: 2px solid blue;
+}
 .borda{
 	background-color:#C1FFC1;
-	
-	padding: 1px;
-	margin: 5px;
+	padding: 2px;
+	margin: 0px;
 }
 .bordadir{
 	border: 2px solid blue;
-	padding: 1px;
-	margin: 0px;
+	padding: 0px;
+	 margin: 0 auto; 
 	height: 400px;
 }
 .bordacentro{
 	border: 2px solid blue;
 	padding: 1px;
-	margin: 0px;
+	 margin: 0 auto;
 	height: 300px;
 }
 .bordaesq{
 	border: 2px solid blue;
 	padding: 1px;
-	margin: 0px;
+	 margin: 0 auto;
 	height: 400px;
 }
 
@@ -34,7 +36,7 @@ i{margin: 15px;}
 }
 .topocentro{
 
-	margin-top: 200px;
+	margin-top: 205px;
 	padding: 0px 0px;
 	z-index: -1;
 }
