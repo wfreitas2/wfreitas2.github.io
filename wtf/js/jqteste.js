@@ -15,6 +15,7 @@ $("#panel").slideDown(400);
   }
 });
 
+
 $(window).scroll(function() {
 
 if ($(this).scrollTop() < 1){  
@@ -36,5 +37,5 @@ if ($(this).scrollTop() < 1){
 });
 function inicio(){
   $("#aparece").hide();
-$("#panel").show();
+$("#panel").slideDown();
 }

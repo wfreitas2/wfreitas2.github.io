@@ -1,6 +1,33 @@
 h1{color: red}
 i{margin: 15px;}
 
+.borda{
+	background-color:#C1FFC1;
+	
+	padding: 1px;
+	margin: 5px;
+}
+.bordadir{
+	border: 2px solid blue;
+	padding: 1px;
+	margin: 0px;
+	height: 400px;
+}
+.bordacentro{
+	border: 2px solid blue;
+	padding: 1px;
+	margin: 0px;
+	height: 300px;
+}
+.bordaesq{
+	border: 2px solid blue;
+	padding: 1px;
+	margin: 0px;
+	height: 400px;
+}
+
+
+
 .topolateral{
 	margin-top: 200px;
 
@@ -8,7 +35,7 @@ i{margin: 15px;}
 .topocentro{
 
 	margin-top: 200px;
-	position: ;
+	padding: 0px 0px;
 	z-index: -1;
 }
 
