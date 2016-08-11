@@ -10,21 +10,24 @@ i{margin: 15px;}
 	margin: 0px;
 }
 .bordadir{
-	border: 2px solid blue;
+	background-color: #CFCFCF;
+	border: 0px solid blue;
 	padding: 0px;
-	 margin: 0 auto; 
+	 margin-bottom: 20px; 
 	height: 400px;
 }
 .bordacentro{
-	border: 2px solid blue;
+	background-color: #CFCFCF;
+	border: 0px solid blue;
 	padding: 1px;
-	 margin: 0 auto;
+	 margin-top:50px ;
 	height: 300px;
 }
 .bordaesq{
-	border: 2px solid blue;
+	background-color: #CFCFCF;
+	border: 0px solid blue;
 	padding: 1px;
-	 margin: 0 auto;
+	 margin-bottom: 20px;
 	height: 400px;
 }
 
