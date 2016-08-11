@@ -18,6 +18,7 @@ hr {
 .imagenssite{
 	float: left;
 	width: 15em;
+	margin: 5px;
 }
 .borda0{
 	border: 2px solid blue;
