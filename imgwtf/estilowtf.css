@@ -1,6 +1,10 @@
 h1{color: red}
 i{margin: 15px;}
 
+p{
+	color: #363636;
+}
+
 hr {
     display: block;
     margin-top: 1.5em;
@@ -12,8 +16,8 @@ hr {
 }
 
 .imagenssite{
-
-	width: 13em;
+	float: left;
+	width: 15em;
 }
 .borda0{
 	border: 2px solid blue;
@@ -28,7 +32,7 @@ hr {
 	border: 0px solid blue;
 	padding: 0px;
 	 margin-bottom: 20px; 
-	height: 400px;
+	height: 450px;
 }
 .bordacentro{
 	background-color: #CFCFCF;
@@ -36,14 +40,14 @@ hr {
 	padding: 1px;
 	 margin-top:50px ;
 	 margin-bottom: 20px; 
-	height: 300px;
+	height: 350px;
 }
 .bordaesq{
 	background-color: #CFCFCF;
 	border: 0px solid blue;
 	padding: 1px;
 	 margin-bottom: 20px;
-	height: 400px;
+	height: 450px;
 }
 
 
