@@ -10,35 +10,38 @@ i{margin: 15px;}
 
 p{
 	font-size: 14px;
-	color: #363636;
+	color: #fff;
 }
 
 a{
 	text-decoration: none;
 }
 a:link{
-color:#006400;
+color:#fff;
 }
 
 a:visited{
-color:#3CB371;
+color:#fff;
 
 
 }
-.fundo{
-	background-color: black;
+.bgdangelo{
+	background-image: url("imgwtf/promodangelo.jpg");
 }
+
 a:hover{
-	color:#006400;
+	color:#fff;
 	text-decoration: none;
-	font-size: 1.01em;
+	font-size: 1.02em;
 
 }
 a:active{
 color:#000;
 background-color: #FFF;
 }
-
+.fundo{
+	background-color: black;
+}
 
 
 
@@ -50,7 +53,22 @@ hr {
     margin-right: auto;
     border-style: outset;
     border-width: 0.5px;
-    border-color: #CDC1C5;
+    border-color: #B8781C;
+}
+.b2{
+	background: #C1FFC1; /* For browsers that do not support gradients */
+  /* Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(90deg, green, white);
+
+  /* For Opera 11.6 to 12.0 */
+  background: -o-linear-gradient(90deg, green, white);
+
+  /* For Firefox 3.6 to 15 */
+  background: -moz-linear-gradient(90deg, green, white);
+
+  /* Standard syntax */
+  background: linear-gradient(90deg, #022C01, #548B54, #548B54, #548B54, #022C01);
+
 }
 .centro{
 	clear: both;
@@ -65,8 +83,23 @@ hr {
 	margin: 0, auto;
 
 }
+.btncollapse{
+	position: relative;
+	width: auto;
+	height: 2em;
+	top :50px;
+	margin-bottom: 3.5%;
+}
+.imagemdangelo{
 
+	width: 100%;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
 
+}
 .imagenssite{
 
 	float: left;
@@ -84,19 +117,20 @@ hr {
 	margin: 0px, auto;
 }
 .bordadir{
-	border-radius: 10px 50px 10px 50px;
-	-moz-border-radius: 10px 50px 10px 50px;
-	-webkit-border-radius: 10px 50px 10px 50px;
-	background-color: #FFFACD;
-	border: 1px solid #CDC1C5;
+	color: white;
+	border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
+	background-color: #000;
+	border: 2px solid #B8781C;
 	padding: 10px;
 	 margin-bottom: 20px; 
 	height: 550px;
 }
 .bordacentro{
-	border-radius: 10px 50px 10px 50px;
-	-moz-border-radius: 10px 50px 10px 50px;
-	-webkit-border-radius: 10px 50px 10px 50px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	background-color: #FFFACD;
 	border: 1px solid #CDC1C5;
 	padding: 13px;
@@ -129,7 +163,7 @@ hr {
 }
 
 .iconesbarratopo{
-	margin-top: 4%;
+	margin-top: 3.5%;
 
 }
 
