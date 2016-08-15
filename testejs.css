@@ -1,0 +1,24 @@
+#panel{
+	background-image: url("imgwtf/bg-wtf.png");
+	background-position: center;
+	position: absolute;
+    height: 5px;
+    width: 100%;
+	
+    border: none;
+    z-index: auto;
+
+
+}
+
+#panel{
+	position: absolute;
+	background-image: url("imgwtf/bg-wtf.png");
+	background-position: center;
+	width: 100%;
+	height: 50%;
+    display: inherit;
+    border: none;
+    z-index: 3;
+
+}

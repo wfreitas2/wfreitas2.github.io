@@ -156,6 +156,9 @@ hr {
 .borda0{
 	border: 2px solid blue;
 }
+.borda1{
+	border: 2px solid red;
+}
 .borda{
 	
 	background-color:#C1FFC1;
@@ -238,7 +241,7 @@ hr {
 }
 .topocentro{
 
-	margin-top: 205px;
+	margin-top: 13em;
 	padding: 0px 0px;
 	z-index: -1;
 }
