@@ -255,6 +255,8 @@ hr {
 
 	.indexbarra{
 	margin-top: 100px;
+	margin-bottom: 0px;
+	padding-bottom: 0px
 	z-index: 2;
 }
 }
@@ -344,7 +346,7 @@ hr {
 	  padding: 	70px 0;
 	  margin-top: 70px;
 	  border-top: 1px solid #e5e5e5;
-	  background-color: #f5f5f5;
+	  background-color: #F9E6B8;
 
 	}
 	.footer p {
@@ -391,8 +393,8 @@ hr {
 
 	/* Link styles (used on .masthead-links as well) */
 .texto a {
-	  color: #fff;
-	  color: rgba(255,255,255,.5);
+	  color: #000;
+	  color: rgba(0,0,0,.5);
 	  -webkit-transition: all .2s ease-in-out;
 	     -moz-transition: all .2s ease-in-out;
 	          transition: all .2s ease-in-out;
