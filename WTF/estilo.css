@@ -1,0 +1,1357 @@
+.b1{
+		background: #C1FFC1; /* For browsers that do not support gradients */
+  /* Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(90deg, #022C01, #548B54, #548B54, #548B54, #022C01);
+
+  /* For Opera 11.6 to 12.0 */
+  background: -o-linear-gradient(90deg, #022C01, #548B54, #548B54, #548B54, #022C01);
+
+  /* For Firefox 3.6 to 15 */
+  background: -moz-linear-gradient(90deg, #022C01, #548B54, #548B54, #548B54, #022C01);
+
+  /* Standard syntax */
+  background: linear-gradient(90deg, #022C01, #548B54, #548B54, #548B54, #022C01);
+
+	
+}
+.toposite{
+	margin-top: 15em;
+}	
+
+@media (max-width:1170px) { 
+	.toposite{
+	margin-top: 10em;
+}
+
+
+}
+
+.bordaver{
+	
+	border:3px solid red;
+	
+	
+}
+
+.centro-vert-meio{
+	position: relative;
+	top: 80px;
+}
+
+.centro-vert-dir{
+	position: relative;
+	top: 30px;
+}
+
+
+
+.centro{
+	margin: 0,auto;
+}
+.tamanho{
+	height: 10em;
+}
+.carousel{
+	height: 10em;
+}
+
+.marcador{
+border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
+
+}
+
+.marcador2{
+	background: #5bf946;
+	border:1px solid #36ae26;
+
+	
+}
+.marcador3{
+	background: transparent;
+	border:1px solid #36ae26;
+
+}
+.marcador4{
+	background: red;
+	border:1px solid #36ae26;
+
+}
+.header{
+	margin:1px auto;
+	height: auto;
+}
+.componentes{
+	margin: 5px 5px;
+}
+.centro{
+	margin:10px auto;
+	text-align: center;
+
+
+}
+.b1{
+	background-color: #97FD97;
+}
+
+	.indexbarra{
+
+	z-index: 2;
+
+}
+
+
+
+
+
+/*----------------------------------------------------header---------------------------------------------*/
+
+#ajuste{
+	
+
+}
+#ajuste{
+	position: relative;
+	margin-top: 0;
+
+}
+#panel{
+	background-image: url("");
+	background-position: center;
+    position: relative; ;
+    height: 5px;
+    width: 100%;
+    border: none;
+    z-index: auto;
+}
+
+#panel{
+	background-image: url("");
+	background-position: center;
+	position: relative;
+	width: 100%;
+	height: auto;
+    border: none;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+.backgroundpos{
+	position:absolute;
+	width: 100%;	
+	height: 1auto;
+}
+.background{
+	
+	min-height: 10px;
+	opacity: 1;
+	-webkit-transition: height 1s , opacity .1s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition: height 1s, opacity .5s;
+	transition-timing-function: ease-in-out;
+
+}
+.background:hover{
+	
+	height: 0px;
+	opacity: 0;
+
+}
+.background:img{
+
+	max-width: 100%;
+    height: auto;
+
+    -webkit-transition:height 1s;
+    transition: height 1s;
+}
+
+
+.background p {
+	color: white;
+	  font-size: 14px;
+	  font-weight: 300;
+	  line-height: 1.25;
+	  margin-bottom: 30px;
+	}
+
+
+
+/* -----------------------------------------bonecofome--------------------------------------------*/
+	.bonecofomepos{
+			    position: absolute;
+	    margin-top: 6%;
+	    margin-left: 15%;
+
+	}
+	.bonecofome{
+		
+	    width: 4%;
+	    height: auto;
+
+	    opacity: ;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+	    animation-delay: 0s;
+	    animation-name: example;
+	    animation-duration: .9s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes example {
+	    0%   { left:0px; top:2px; }
+	    25%  { left:0px; top:-2px;}
+	    50%  { left:0px; top:2px;}
+	    75%  {left:0px; top:-2px;}
+	    100% { left:0px; top:2px;}
+	}
+
+	/* Standard syntax */
+	@keyframes example {
+	    0%   { left:0px; top:2px;}
+	    25%  { left:0px; top:-2px;}
+	    50%  { left:0px; top:2px;}
+	    75%  {left:0px; top:-2px;}
+	    100% { left:0px; top:2px;}
+	}
+	.bonecofome:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.bonecofome:hover{
+		
+		opacity: 1;
+
+	}
+
+
+/* -----------------------------------------fominha--------------------------------------------*/
+	.fominha1{
+		position: absolute;
+	    margin-top: 1%;
+	    margin-left: 12%;
+	}
+	.fominha2{
+		position: absolute;
+	    margin-top: 2%;
+	    margin-left: 6%;
+	}
+	.fominha3{
+		position: absolute;
+	    margin-top: 8%;
+	    margin-left: 7%;
+	}
+
+	.fominha{
+		float: left;
+	    width: 6%;
+	    height: auto;
+	    opacity: ;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+	    animation-name: example1;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	/* Chrome, Safari, Opera */
+		@-ms-keyframes example1 {
+		 0%   {-ms-transform: scale(.6,.6); }
+	    
+	    50%  { -ms-transform: scale(0.5,0.5); }
+	   
+	    100% {-ms-transform: scale(.6,.6); }
+	   
+	}
+
+	@-webkit-keyframes example1 {
+		 0%   {-webkit-transform: scale(.6,.6); }
+	    
+	    50%  { -webkit-transform: scale(0.5,0.5); }
+	   
+	    100% {-webkit-transform: scale(.6,.6); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes example1 {
+		 0%   {-webkit-transform: scale(.6,.6); }
+	    
+	    50%  { -webkit-transform: scale(0.5,0.5); }
+	   
+	    100% {-webkit-transform: scale(.6,.6); }
+	   
+	}
+	.fominha:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.fominha:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------FOME----------------------------------------------*/
+	.fomepos{
+		position: absolute;
+	    margin-top: 5%;
+	    margin-left: 10.5%;
+	}
+
+	.fome{
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: fomeani; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: fomeani;
+	    animation-duration: 0s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes fomeani {
+	    0%   { width: 55px; height: 55px; }
+	    
+	    50%  { width: 60px; height: 65px; }
+	   
+	    100% { width: 55px ;height: 55px; }
+	}
+
+	/* Standard syntax */
+	@keyframes fomeani {
+	 	0%   { width: 55px; height: 55px; }
+	    
+	    50%  { width: 60px; height: 65px; }
+	   
+	    100% { width: 55px ;height: 55px; }
+	}
+
+	.fome:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.fome:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------lampada----------------------------------------------*/
+
+	.lampadinha{
+		position: absolute;
+	    margin-top: 3%;
+	    margin-left: 25%;
+	}
+	.lampada{
+		background-image: url("imgwtf/lampada.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% ;
+		float: left;
+	    width: 1.5%;
+	    height: 10%;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: lamp; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: lamp;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+
+	   
+
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes lamp {
+	    0%   {background-image: url("imgwtf/lampada.png")}
+	    100% { background-image: url("imgwtf/lampada2.png")}
+	}
+
+	/* Standard syntax */
+	@keyframes lamp {
+	    0%   {background-image: url("imgwtf/lampada.png")}
+	    100% { background-image: url("imgwtf/lampada2.png")}
+	}
+
+	.lampada:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.lampada:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------ideia----------------------------------------------*/
+
+	.ideia{
+		position: absolute;
+		margin-top: 4%;
+	    margin-left: 26%;
+	}
+	.bonecoideia{
+
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: ideia; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: .9s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: ideia;
+	    animation-duration: .9s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	/* Chrome, Safari, Opera */
+	@-ms-keyframes ideia {
+		 0%   {rotate(20deg) }
+	    
+	    50%  { rotate(0deg) }
+	   
+	    100% { rotate(-20deg) }
+	   
+	}
+	@-webkit-keyframes ideia {
+		 0%   {-webkit-transform: rotate(15deg); }
+	    
+	    50%  { -webkit-transform: rotate(-15deg); }
+	   
+	    100% {-webkit-transform: rotate(15deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes ideia {
+		 0%   {transform: rotate(15deg); }
+	    
+	    50%  { transform: rotate(-15deg); }
+	   
+	    100% {transform: rotate(15deg); }
+	   
+	}
+
+	.bonecoideia:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.bonecoideia:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------click----------------------------------------------*/
+
+	.clickpos{
+		position: absolute;
+		margin-top: 4%;
+	    margin-left: 32%;
+	}
+	.click{
+
+		
+		float: left;
+	    width: 5%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: clicou; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: .8s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: clicou;
+	    animation-duration: .8s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes clicou {
+		 0%   {-ms-transform: scale(.6,.6); }
+	    
+	    50%  { -ms-transform: scale(0.5,0.5); }
+	   
+	    100% {-ms-transform: scale(.6,.6); }
+	   
+	}
+
+	@-webkit-keyframes clicou {
+		 0%   {-webkit-transform: scale(.6,.6); }
+	    
+	    50%  { -webkit-transform: scale(0.5,0.5); }
+	   
+	    100% {-webkit-transform: scale(.6,.6); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes clicou {
+		 0%   {-webkit-transform: scale(.6,.6); }
+	    
+	    50%  { -webkit-transform: scale(0.5,0.5); }
+	   
+	    100% {-webkit-transform: scale(.6,.6); }
+	   
+	}
+
+	.click:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.click:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------mouse----------------------------------------------*/
+
+	.mousepos{
+		position: absolute;
+		margin-top:7%;
+	    margin-left: 35%;
+	}
+	.mouse{
+
+		background-size: 20px ;
+		float: left;
+	    width: 2%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: mouse; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: mouse;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes mouse {
+		0%   {-ms-transform: rotate(5deg) }
+	    
+	    50%  {-ms-transform: rotate(-5deg) }
+	   
+	    100% {-ms-transform: rotate(-5deg) }
+	   
+	}
+	@-webkit-keyframes mouse {
+		0%   {-webkit-transform: rotate(5deg); }
+	    
+	    50%  { -webkit-transform: rotate(-5deg); }
+	   
+	    100% {-webkit-transform: rotate(5deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(5deg); }
+	    
+	    50%  { transform: rotate(-5deg); }
+	   
+	    100% {transform: rotate(5deg); }
+	   
+	}
+
+	.mouse:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.mouse:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------logo----------------------------------------------*/
+
+	.logopos{
+		position: absolute;
+		margin-top: .5%;
+	    margin-left: 35%;
+	}
+	.logo{
+
+		background-size: 20px ;
+		float: left;
+	    width: 25%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: logo; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: logo;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+
+	@-webkit-keyframes logo {
+		
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes logo {
+		
+	}
+
+	.logo:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.logo:hover{
+		
+		opacity: 1;
+
+	}
+
+
+	/*-----------------------------------moto----------------------------------------------*/
+
+	.motopos{
+		position: absolute;
+		margin-top: 2%;
+	    margin-left: 60%;
+	}
+	.moto{
+
+		background-size: 20px ;
+		float: left;
+	    width: 11%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: moto; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: .1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: moto;
+	    animation-duration: .1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.moto:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.moto:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------bibi----------------------------------------------*/
+
+	.bibipos{
+		position: absolute;
+		margin-top: 3%;
+	    margin-left: 68%;
+	}
+	.bibi{
+
+		
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-name: bibi; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: bibi;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes bibi {
+		 0%   {-ms-transform: scale(1,1); }
+	    
+	    50%  { -ms-transform: scale(0.8,0.8); }
+	   
+	    100% {-ms-transform: scale(1,1); }
+	   
+	}
+
+	@-webkit-keyframes clbibiicou {
+		 0%   {-webkit-transform: scale(1,1); }
+	    
+	    50%  { -webkit-transform: scale(0.8,0.8); }
+	   
+	    100% {-webkit-transform: scale(1,1); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes bibi {
+		 0%   {-webkit-transform: scale(1,1); }
+	    
+	    50%  { -webkit-transform: scale(0.8,0.8); }
+	   
+	    100% {-webkit-transform: scale(1,1); }
+	   
+	}
+
+
+	@-ms-keyframes bibi {
+		 0%   {-ms-transform: scale(.8,.8); }
+	    
+	    50%  { -ms-transform: scale(.6,.6); }
+	   
+	    100% {-ms-transform: scale(.8,.8); }
+	   
+	}
+
+	@-webkit-keyframes clbibiicou {
+		 0%   {-webkit-transform: scale(.8,.8); }
+	    
+	    50%  { -webkit-transform: scale(.6,.6); }
+	   
+	    100% {-webkit-transform: scale(.8,.8); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes bibi {
+		 0%   {-webkit-transform: scale(.8,.8); }
+	    
+	    50%  { -webkit-transform: scale(.6,.6); }
+	   
+	    100% {-webkit-transform: scale(.8,.8); }
+	   
+	}
+
+
+	.bibi:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.bibi:hover{
+		
+		opacity: 1;
+
+	}
+
+@media (max-width: 900px){	
+	.r7-header {
+       margin-top: -20px;
+       min-height: 38px;
+       position: fixed;
+       width: 100%;
+       z-index: 1001;
+  	}	
+}
+@media (max-width: 900px){
+.r7-header {
+       margin-top: 20px;
+       min-height: 38px;
+       position: fixed;
+       width: 100%;
+       z-index: 1001;
+   }	
+
+}
+
+/*-----------------------------------bibi----------------------------------------------*/
+
+
+
+#panel{
+	
+	background-position: center;
+	position: fixed;
+    height: 5px;
+    width: 100%;
+    border: none;
+    z-index: 3;
+    
+-webkit-transition:background-image() ;
+            transition:background-image();
+           
+}
+
+#panel{
+	position: fixed;
+	background-position: center;
+	width: 100%;
+	height: 14em;
+    display: inherit;
+    border: none;
+    z-index: 4;
+     -webkit-transition:background-image() ;
+            transition:background-image();
+}
+
+
+
+/*-----------------------------------------bonecofinal------------------------------------------------------------*/
+.bonecofinalpos{
+		position: absolute;
+		margin-top: 4.5%;
+	    margin-left: 85%;
+}
+.bonecofinal{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name: ideia, clicou; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: ideia ;
+	    animation-duration: 1.5s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes moto {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.bonecofinal:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.bonecofinal:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------burrito------------------------------------------------------------*/
+.burritopos{
+		position: absolute;
+		margin-top: 9.5%;
+	    margin-left: 80%
+}
+.burrito{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name:cresce ; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: cresce;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.burrito:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.burrito:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------pizza------------------------------------------------------------*/
+.pizzapos{
+		position: absolute;
+		margin-top: 6%;
+	    margin-left: 79%
+}
+.pizza{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name: cresce; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: cresce;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.pizza:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.pizza:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------docinho------------------------------------------------------------*/
+.docinhopos{
+		position: absolute;
+		margin-top: 1%;
+	    margin-left: 82%
+}
+.docinho{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name: cresce; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: cresce;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.docinho:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.docinho:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------sanduba------------------------------------------------------------*/
+.sandubapos{
+		position: absolute;
+		margin-top: 1.5%;
+	    margin-left: 90%
+}
+.sanduba{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name: cresce; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name:cresce ;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.sanduba:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.sanduba:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------suco------------------------------------------------------------*/
+.sucopos{
+		position: absolute;
+		margin-top: 5%;
+	    margin-left: 92%
+}
+.suco{
+
+		background-size: 20px ;
+		float: left;
+	    width: 3%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name:cresce ; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: cresce;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+
+	@-ms-keyframes moto {
+		0%   {-ms-transform: rotate(1deg) }
+	    
+	    50%  {-ms-transform: rotate(-1deg) }
+	   
+	    100% {-ms-transform: rotate(-1deg) }
+	   
+	}
+	@-webkit-keyframes moto {
+		0%   {-webkit-transform: rotate(1deg); }
+	    
+	    50%  { -webkit-transform: rotate(-1deg); }
+	   
+	    100% {-webkit-transform: rotate(1deg); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes mouse {
+		 0%   {transform: rotate(1deg); }
+	    
+	    50%  { transform: rotate(-1deg); }
+	   
+	    100% {transform: rotate(1deg); }
+	   
+	}
+
+	.suco:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.suco:hover{
+		
+		opacity: 1;
+
+	}
+
+	/*-----------------------------------------prato------------------------------------------------------------*/
+.pratopos{
+		position: absolute;
+		margin-top: 9.5%;
+	    margin-left: 90%
+}
+.prato{
+
+		background-size: 20px ;
+		float: left;
+	    width: 4%;
+	    height: auto;
+	    -webkit-animation-delay: 0s;
+
+	    -webkit-animation-name: cresce ; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	    -webkit-animation-iteration-count: infinite;/* Chrome, Safari, Opera */
+	    -webkit-transition-timing-function: ease-in-out;
+	    -webkit-transition: opacity.5s;
+
+	    animation-name: cresce;
+	    
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+	    animation-iteration-count: infinite;
+	    transition-timing-function: ease-in-out;
+	   
+
+	}
+	@-ms-keyframes cresce {
+		 0%   {-ms-transform: scale(.6,.6); }
+	    
+	    50%  { -ms-transform: scale(0.5,0.5); }
+	   
+	    100% {-ms-transform: scale(.6,.6); }
+	   
+	}
+
+	@-webkit-keyframes cresce {
+		 0%   {-webkit-transform: scale(.6,.6); }
+	    
+	    50%  { -webkit-transform: scale(0.5,0.5); }
+	   
+	    100% {-webkit-transform: scale(.6,.6); }
+	   
+	}
+
+	/* Standard syntax */
+	@keyframes cresce {
+		 0%   {-webkit-transform: scale(1,1); }
+	    
+	    50%  { -webkit-transform: scale(.8,.8); }
+	   
+	    100% {-webkit-transform: scale(1,1); }
+	   
+	}
+
+
+	.prato:img{
+		max-width: 100%;
+	    height: auto;
+	}
+	.prato:hover{
+		
+		opacity: 1;
+
+	}
