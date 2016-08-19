@@ -28,7 +28,15 @@
 
 .bordaver{
 	
-	border:3px solid red;
+	color: white;
+	border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
+	background-color: #000;
+	/*border: 2px solid #B8781C;*/
+	padding: 10px;
+	 margin-bottom: 20px; 
+	height: auto;
 	
 	
 }
@@ -56,9 +64,16 @@
 }
 
 .marcador{
-border-radius: 50px 10px 50px 10px;
+
+	color: white;
+	border-radius: 50px 10px 50px 10px;
 	-moz-border-radius: 50px 10px 50px 10px;
 	-webkit-border-radius: 50px 10px 50px 10px;
+	background-color: #000;
+	/*border: 2px solid #B8781C;*/
+	padding: 5px;
+	 margin20px; 
+	height: auto;
 
 }
 
@@ -1355,3 +1370,40 @@ border-radius: 50px 10px 50px 10px;
 		opacity: 1;
 
 	}
+
+
+
+
+
+.footer {
+	  padding: 	70px 0;
+	  margin-top: 70px;
+	  border-top: 1px solid #e5e5e5;
+	  background-color: #C8FCD8;
+
+	}
+	.footer p {
+	  margin-bottom: 0;
+	  color: #777;
+	}
+	.footer-links {
+	  margin: 15px 0;
+	}
+	.footer-links li {
+	  display: inline;
+	  padding: 0 2px;
+	}
+	.footer-links li:first-child {
+	  padding-left: 10px;
+	}
+
+
+
+.logobrandim{
+	width: 12em;
+	height: auto;
+	padding: 10px;
+}
+.topolinks{
+	margin-top: 20px
+}

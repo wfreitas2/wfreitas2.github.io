@@ -9,9 +9,11 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="estilo.css" rel="stylesheet">
 
-   
+   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>window.jquery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 
@@ -56,21 +58,24 @@
             <div class="navbar navbar-inverse navbar-fixed-top indexbarra">
               <div class="container">
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra">
-                    <span>Menu</span>
 
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                   </button>
 
-                  <a class="navbar-brand" href=""> IMAGEM</a>
+                  <a class="brand " href="#"><img class=" logobrandim" src="imagens/logo.png" alt=""></img></a>
                 </div>
                 <div id="barra" class="collapse navbar-collapse">
-                <ul  class="nav navbar-nav navbar-right">
-                  <li><a href="homewtf.html">Home <i class="icon-chevron-right "></i></a></li>
+                <ul  class="nav navbar-nav navbar-right topolinks">
+                  <li class="btn  btn-xs"><a href="homewtf.html">Home <i class="glyphicon glyphicon-menu-right "></i></a></li>
                 <li></li>
-              <li><a href="#">Destaques <i class="icon-chevron-right "></i></a></li>
-              <li><a href="#">Parceiros <i class="icon-chevron-right "></i></a></li>
-              <li><a href="quemSomos.html">Quem Somos <i class="icon-chevron-right "></i></a></li>
-              <li><a href="formularios.html">Contato <i class="icon-chevron-right "></i></a></li>
+              <li class="btn btn-xs "><a href="#">Destaques <i class="glyphicon glyphicon-menu-right "></i></a></li>
+              <li class="btn btn-xs"><a href="#">Parceiros <i class="glyphicon glyphicon-menu-right "></i></a></li>
+              <li class="btn btn-xs"><a href="quemSomos.html">Quem Somos <i class="glyphicon glyphicon-menu-right "></i></a></li>
+              <li class="btn btn-xs"><a href="formularios.html">Contato <i class="glyphicon glyphicon-menu-right "></i></a></li>
               </ul></div>
                 
               </div>
@@ -85,53 +90,27 @@
           <h1>Carousel</h1>
         </div>
    		
-   		<div class="container-fluid centro  ">
-       
-        <div class="col-xs-12  col-sm-5 col-md-5  header">
-          <span class="">
-            <div class=" ">
-           
-                <h3 class="">Casa D'angelo</h3>
-                <hr>
+   		<div class="container-fluid centro">
+<div class="col-xs-12  col-sm-5 col-md-5  header marcador">
+  <div class="marcador">
+          <div class=" ">
+            <h3 class="">Casa D'angelo</h3>
+            <hr>
+          </div>
+          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
               </div>
-              <span ><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-            </span>
+    
         </div>
-        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio">
-         <div class=" ">
-            <h3 class="">Casa D'angelo</h3>
-            <hr>
-          </div>
-          <span><a href="#"><img class=" img-responsive centro marcador "src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
-        </div>
-        <div class="col-xs-12  col-sm-4 col-md-4  header centro-vert-dir">
-          <div class=" ">
-            <h3 class="">Casa D'angelo</h3>
-            <hr>
-          </div>
-          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
-        </div>
-   		</div>
-      <div class="container-fluid centro">
-<div class="col-xs-12  col-sm-5 col-md-5  header">
-          <div class=" ">
-            <h3 class="">Casa D'angelo</h3>
-            <hr>
-          </div>
-          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
-        </div>
-        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio">
+        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio ">
+           <div class="marcador">
          <div class=" ">
             <h3 class="">Casa D'angelo</h3>
             <hr>
           </div>
           <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
+                 </div> 
         </div>
-        <div class="col-xs-12  col-sm-4 col-md-4  header centro-vert-dir">
+        <div class="col-xs-12  col-sm-4 col-md-4  header centro-vert-dir marcador">
           <div class=" ">
             <h3 class="">Casa D'angelo</h3>
             <hr>
@@ -141,23 +120,26 @@
         </div>
       </div>
       <div class="container-fluid centro">
-        <div class="col-xs-12  col-sm-5 col-md-5  header">
+<div class="col-xs-12  col-sm-5 col-md-5  header marcador">
+  <div class="marcador">
           <div class=" ">
             <h3 class="">Casa D'angelo</h3>
             <hr>
           </div>
           <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
+              </div>
+    
         </div>
-        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio">
+        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio ">
+           <div class="marcador">
          <div class=" ">
             <h3 class="">Casa D'angelo</h3>
             <hr>
           </div>
           <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-                  
+                 </div> 
         </div>
-        <div class="col-xs-12  col-sm-4 col-md-4 marcador3 header centro-vert-dir">
+        <div class="col-xs-12  col-sm-4 col-md-4  header centro-vert-dir marcador">
           <div class=" ">
             <h3 class="">Casa D'angelo</h3>
             <hr>
@@ -166,14 +148,62 @@
                   
         </div>
       </div>
-      <div class="row">
+     <div class="container-fluid centro">
+<div class="col-xs-12  col-sm-5 col-md-5  header marcador">
+  <div class="marcador">
+          <div class=" ">
+            <h3 class="">Casa D'angelo</h3>
+            <hr>
+          </div>
+          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
+              </div>
+    
+        </div>
+        <div class="col-xs-12  col-sm-3 col-md-3  header centro-vert-meio ">
+           <div class="marcador">
+         <div class=" ">
+            <h3 class="">Casa D'angelo</h3>
+            <hr>
+          </div>
+          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
+                 </div> 
+        </div>
+        <div class="col-xs-12  col-sm-4 col-md-4  header centro-vert-dir marcador">
+          <div class=" ">
+            <h3 class="">Casa D'angelo</h3>
+            <hr>
+          </div>
+          <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
+                  
+        </div>
+      </div>
+      
+   	</div> 
+    <div class="row">
         <div class="col-xs-12 centro tamanho">
-          <h1>footer 4</h1>
+          <footer class="footer">
+            <div class="container ">
+              <p class="pull-right"><a href="#">Voltar ao topo</a></p>
+              <p>
+                <a href="" target="_blank"></a>  
+                <a href="3" target="_blank"></a>
+            </p>
+
+              <p>Este site esta em construção<a href="#"></a>.</p>
+              <p><a href="" target="_blank">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Facebook</a></li>
+                <li class="muted">&middot;</li>
+                <li><a href="#">problemas</a></li>
+                <li class="muted">&middot;</li>
+                <li><a href="#">Nossa Comunicação Produções</a></li>
+              </ul>
+            </div>
+        </footer>
         </div>
         
        
       </div>
-   	</div> 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
