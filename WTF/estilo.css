@@ -44,11 +44,13 @@
 .centro-vert-meio{
 	position: relative;
 	top: 80px;
+
 }
 
 .centro-vert-dir{
 	position: relative;
 	top: 30px;
+
 }
 
 
@@ -62,7 +64,36 @@
 .carousel{
 	height: 10em;
 }
+hr {
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 0.5px;
+    border-color: #000;
+}
 
+.marcadorbranco{
+	color: black;
+	border-radius: 50px 3px 1px 1px;
+	-moz-border-radius: 50px 3px 1px 1px;
+	-webkit-border-radius: 40px 3px 1px 1px;
+	background-color: rgba(255,255,255,.8);
+	/*border: 2px solid #B8781C;*/
+	padding: 1px;
+	 margin:1px; 
+	height: auto;
+}
+
+.marcadorbranco h3{
+
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: serif, sans-serif;
+	
+}
 .marcador{
 
 	color: white;
@@ -74,6 +105,22 @@
 	padding: 5px;
 	 margin20px; 
 	height: auto;
+	
+
+}
+.marcadorfora{
+
+	color: white;
+	border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
+	background-color: #000;
+	/*border: 2px solid #B8781C;*/
+	padding: 5px;
+	 margin20px; 
+	height: auto;
+
+	
 
 }
 
@@ -85,7 +132,8 @@
 }
 .marcador3{
 	background: transparent;
-	border:1px solid #36ae26;
+	border:0px solid #36ae26; 
+	height: auto
 
 }
 .marcador4{
@@ -396,7 +444,7 @@
 	    margin-left: 25%;
 	}
 	.lampada{
-		background-image: url("imgwtf/lampada.png");
+		background-image: url("imagens/lampada.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 100% ;
@@ -422,14 +470,14 @@
 
 	/* Chrome, Safari, Opera */
 	@-webkit-keyframes lamp {
-	    0%   {background-image: url("imgwtf/lampada.png")}
-	    100% { background-image: url("imgwtf/lampada2.png")}
+	    0%   {background-image: url("imagens/lampada.png")}
+	    100% { background-image: url("imagens/lampada2.png")}
 	}
 
 	/* Standard syntax */
 	@keyframes lamp {
-	    0%   {background-image: url("imgwtf/lampada.png")}
-	    100% { background-image: url("imgwtf/lampada2.png")}
+	    0%   {background-image: url("imagens/lampada.png")}
+	    100% { background-image: url("imagens/lampada2.png")}
 	}
 
 	.lampada:img{
@@ -1378,8 +1426,8 @@
 .footer {
 	  padding: 	70px 0;
 	  margin-top: 70px;
-	  border-top: 1px solid #e5e5e5;
-	  background-color: #C8FCD8;
+	  border-top: 1px solid #FF9C00;
+	  background-color: #FF9C00;
 
 	}
 	.footer p {
