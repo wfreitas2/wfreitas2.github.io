@@ -83,7 +83,8 @@ hr {
     border-color: #000;
 }
 .margemimg{
-	margin: 25px;
+	margin-left:  25px;
+	margin-right:  25px;
 }
 
 .marcadorbranco{
