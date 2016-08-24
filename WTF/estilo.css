@@ -42,22 +42,25 @@
 }
 
 .centro-vert-meio{
-	position: relative;
+	position: static;
 	top: 80px;
 
 }
 
 .centro-vert-dir{
-	position: relative;
+	position: static;
 	top: 30px;
 
 }
 
-
-
 .centro{
-	margin: 0,auto;
+	margin:10px auto;
+	text-align: center;
+
+
 }
+
+
 .tamanho{
 	height: 10em;
 }
@@ -94,6 +97,17 @@ hr {
 	font-family: serif, sans-serif;
 	
 }
+.marcadorquemsomos{
+	color: white;
+	border-radius: 50px 10px 50px 10px;
+	-moz-border-radius: 50px 10px 50px 10px;
+	-webkit-border-radius: 50px 10px 50px 10px;
+	background-color: #000;
+	/*border: 2px solid #B8781C;*/
+	padding: 15px;
+	margin: 0, auto; 
+	height: auto;
+}
 .marcador{
 
 	color: white;
@@ -102,8 +116,8 @@ hr {
 	-webkit-border-radius: 50px 10px 50px 10px;
 	background-color: #000;
 	/*border: 2px solid #B8781C;*/
-	padding: 5px;
-	 margin20px; 
+	padding: 7px;
+	margin: 0, auto; 
 	height: auto;
 	
 
@@ -117,7 +131,7 @@ hr {
 	background-color: #000;
 	/*border: 2px solid #B8781C;*/
 	padding: 5px;
-	 margin20px; 
+	margin: 20px; 
 	height: auto;
 
 	
@@ -148,12 +162,7 @@ hr {
 .componentes{
 	margin: 5px 5px;
 }
-.centro{
-	margin:10px auto;
-	text-align: center;
 
-
-}
 .b1{
 	background-color: #97FD97;
 }
