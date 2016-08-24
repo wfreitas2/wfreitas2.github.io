@@ -43,13 +43,13 @@
 
 .centro-vert-meio{
 	position: static;
-	top: 80px;
+	margin-top: 5em;
 
 }
 
 .centro-vert-dir{
 	position: static;
-	top: 30px;
+	margin-top: 2.5em;
 
 }
 
