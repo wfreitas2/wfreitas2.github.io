@@ -120,9 +120,9 @@ hr {
 .marcadorcar{
 
 	color: white;
-	border-radius: 50px 10px 50px 10px;
-	-moz-border-radius: 50px 10px 50px 10px;
-	-webkit-border-radius: 50px 10px 50px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	background-color: #000;
 	/*border: 2px solid #B8781C;*/
 	padding: 20px;
