@@ -64,8 +64,13 @@
 .tamanho{
 	height: 10em;
 }
+.carouselimg{
+	width: 70em;
+}
 .carousel{
-	height: 10em;
+	height: auto;
+	z-index: 0;
+
 }
 hr {
     display: block;
