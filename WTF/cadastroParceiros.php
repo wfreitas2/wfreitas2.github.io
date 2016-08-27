@@ -27,9 +27,7 @@
   <body class="b1">
      <script type="text/javascript" src="js_wtf/animacoes.js"></script>
     <div class="row">
-        <div class=" row-fluid">
-           <div class=" col-xs-11 col-md-0"></div>
-          <div class=" col-xs-1 col-md-12">
+        <div class=" container-fluid">
             <div id="panel">
               
               <img src="imagens/bg-wtf.png" alt="" class="backgroundpos img-responsive"></img>
@@ -39,7 +37,7 @@
               <img src="imagens/fome.png" alt="" class="fome fomepos img-responsive"></img>
               <img src="imagens/click.png" alt="" class="click clickpos img-responsive"></img>
               <img src="imagens/mouse.png" alt="" class="mouse mousepos img-responsive"></img>
-              <img src="imagens/logo.png" alt="" class="logo logopos img-responsive"></img>
+              <img  src="imagens/logo.png" alt="" class="logo logopos img-responsive"></img>
               <img src="imagens/moto.png" alt="" class="moto motopos img-responsive"></img>
               <img src="imagens/bonecofinal.png" alt="" class="bonecofinal bonecofinalpos img-responsive"></img>
               <img src="imagens/burrito.png" alt="" class="burrito burritopos img-responsive"></img>
@@ -54,7 +52,6 @@
               <img src="imagens/bonecocomfome.png" alt="" class="bonecofome bonecofomepos img-responsive"></img>
 
             </div><!--panel-->
-            </div>
           </div>
 
           <nav class="row ">
@@ -76,7 +73,8 @@
                     <li class="btn  btn-xs"><a href="homewtf.html">Home <i class=" "></i></a></li>
                     <li></li>
                     <li class="btn btn-xs "><a href="destaques.html">Promoções <i class=" "></i></a></li>
-                    <!--<li class="btn btn-xs"><a href="parceiros.html">Parceiros <i class=" "></i></a></li>-->
+          
+                     <!--<li class="btn btn-xs"><a href="parceiros.html">Parceiros <i class=" "></i></a></li>-->
                     <li class="btn btn-xs"><a href="quemSomos.html">Quem Somos <i class=" "></i></a></li>
                     <li class="btn btn-xs"><a href="contatos.html">Contato <i class=" "></i></a></li>
                   </ul>
@@ -85,131 +83,58 @@
             </div>
           </nav>  
         </div>
+         <div class="row toposite">
+        
+    <div class="container ">
+        <div class="col-xs-12  centro  page-header  ">
+          <h1>PARCEIROS</h1>
+        </div>
+        
+        <div class="col-xs-12 centro   ">
+           <?php 
 
-       	<div class="container-fluid centro ">
-           <div class="col-xs-12   toposite ">
+                $nomeparceiro = $_POST['nomeparceiro'];
 
+                $mailpar = $_POST['mailpar'];
+                //$emailprom = $_POST['emailprom'];
 
+               // echo"<br />";
+                
 
+              //if($checkprom == true && $nomeprom==true && $emailprom==true )
+                   
+                    echo" <h1> Parabens $nomeparceiro".", </h1>"."<h4>vc receberá informações sobre contrato de serviços no seu $mailpar</h4> <h1>Seja Muito bem vindo!!</h1>"."<a href='homewtf.html'>continuar navegando</a>";
+                //else if($checkprom == true && $nomeprom==true || $emailprom==true)
+                  
 
+              // echo" <h1> falta campo</h1>"."<a href='homewtf.html'>continuar navegando</a>";
+               // else
+                //    echo' <script> alert("teste") </script>';
+                    
+                    //echo" <h1> obrigado pela visita</h1>"."<a href='homewtf.html'>continuar navegando</a>";
+            ?>
+                
+        </div>
+        
 
-              
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+        </div>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class=" img-responsive centro marcadorcar carouselimg" src="imagens/clientes/dangeloban.jpg" alt=" ">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img class=" img-responsive centro marcadorcar carouselimg" src="imagens/clientes/bohemiaban.jpg" alt=" ">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    ...
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    </div> 
 
 
-
-
-
-            </div>
-       		
-       		<div class="container-fluid centro">
-            <div class="col-xs-12  col-sm-4 col-md-4  header ">
-              <div class="marcador margemimg">
-                <div class=" marcadorbranco ">
-                  <h3 class="">Casa D'angelo</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div>
-            </div>
-            <div class="col-xs-12  col-sm-4 col-md-4  header  ">
-              <div class="marcador margemimg">
-                <div class="marcadorbranco  ">
-                  <h3 class="">Bohemia</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div> 
-            </div>
-            <div class="col-xs-12  col-sm-4 col-md-4  header ">
-              <div class="marcador margemimg ">
-                <div class=" marcadorbranco  ">
-                  <h3 class="">Casa D'angelo</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid centro">
-            <div class="col-xs-12  col-sm-4 col-md-4  header ">
-              <div class="marcador margemimg">
-                <div class=" marcadorbranco ">
-                  <h3 class="">Casa D'angelo</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div>
-            </div>
-            <div class="col-xs-12  col-sm-4 col-md-4  header  ">
-              <div class="marcador margemimg">
-                <div class="marcadorbranco  ">
-                  <h3 class="">Bohemia</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div> 
-            </div>
-            <div class="col-xs-12  col-sm-4 col-md-4  header ">
-              <div class="marcador margemimg ">
-                <div class=" marcadorbranco  ">
-                  <h3 class="">Casa D'angelo</h3>
-                  <hr>
-                </div>
-                <span><a href="#"><img class=" img-responsive centro marcador"src="imagens/clientes/promodangelo.jpg" alt=""></a></span>
-              </div>
-            </div>
-          </div>
-          
-          
-       	</div> 
+        
     <div class="row">
         <div class="col-xs-12 centro tamanho">
           <footer class="footer">
             <div class="container ">
-              <p class="pull-right"><a href="#">Voltar ao topo</a></p>
-              <p>
+                <p class="pull-right"><a href="#">Voltar ao topo</a></p>
+                <p>
                 <a href="" target="_blank"></a>  
                 <a href="3" target="_blank"></a>
-            </p>
+                </p>
 
-              <p>Este site esta em construção<a href="#"></a>.</p>
-              <p><a href="" target="_blank">
+                <p>Este site esta em construção<a href="#"></a>.</p>
+                <p><a href="" target="_blank">
               <ul class="nav navbar-nav">
                 <li><a href="#">Facebook</a></li>
                 <li class="muted">&middot;</li>
@@ -218,7 +143,7 @@
                 <li><a href="#">Nossa Comunicação Produções</a></li>
               </ul>
             </div>
-        </footer>
+           </footer>
         </div>
         
        
@@ -230,3 +155,33 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

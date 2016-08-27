@@ -82,150 +82,124 @@
             </div>
           </nav>  
         </div>
-         <div class="row toposite">
+      <div class="row toposite">
         
    	<div class="container ">
    		<div class="col-xs-12  centro  page-header  ">
-          <h1>Contatos</h1>
-        </div>
+        <h1>Contatos</h1>
+      </div>
    		
-		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8   ">
-			<h3>Desejo receber e-mails com promoções</h3>
+  		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8   ">
+  			<h3>Desejo receber e-mails com promoções</h3>
 
-				<form >
-					<div class="form-group">
-						<label for="nome">Nome: </label>
-						<input class="form-control" type="text" placeholder="Nome:" id="nome">
-					</div>	
-					<div class="form-group">
-						<label for="email">E-mail: </label>
-						<input class="form-control" type="email" placeholder="e-mail: " id="email">
-					</div>
+  				<form role="form" action="cadastroPromocao.php" method="post">
+  					<div class="form-group">
+  						<label for="nome"  >Nome: </label>
+  						<input required class="form-control" type="text" placeholder="Nome:" name="nomeprom" id="nomeprom">
+  					</div>	
+  					<div class="form-group">
+  						<label for="email"  >E-mail: </label>
+  						<input required class="form-control" type="email" placeholder="e-mail: "name="emailprom" id="emailprom">
+  					</div>
+  					<div class="checkbox">
+  						<label >
+  						<input required type="checkbox"  name="check_prom" id="check_prom" value="1"> Aceito os termos 
+  						</label>
+  					</div>
+  					<div class="form-group">
+  						<label ></label>
+  						<input class="btn btn-sucess" type="submit"  id="">
+  					</div>
+  				</form >
 
 
-					
-					
-					<!--<div class="radio">
-						<label >
-							<input type="radio" id="" name="termos">Aceito os termos
-						</label>
-						<label >
-							<input type="radio"  id="" name="termos">Não aceito os termos
-						</label>
-					</div>-->
-					<div class="checkbox">
-						<label >
-							<input type="checkbox"  id=""> Aceito os termos 
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label ></label>
-						<input class="btn btn-sucess" type="submit"  id="">
-					</div>
-					
+  				<h3>Desejo receber promoções por Whatsapp </h3>
 
-				</form>
-				<h3>Desejo receber promoções por Whatsapp </h3>
 
-				<form >
-					<div class="form-group">
-						<label for="nome">Nome: </label>
-						<input class="form-control" type="text" placeholder="Nome:" id="nome">
-					</div>	
-					
+  				<form role="form" action="cadastroWzp.php" method="post">
+  					<div class="form-group">
+  						<label for="nome">Nome: </label>
+  						<input required class="form-control" type="text" placeholder="Nome:" name="nomezap"id="nomezap">
+  					</div>	
+            <div class="form-group">
+  						<label  for="nome" >Whatsapp: </label>
+                <div class="checkbox">
+                  <label >
+                  <input required type="checkbox"  id=""> Aceito receber promoções por Whatsapp 
+                  </label>
+                </div>
+  						<input role="form" required class="form-control" type="tel" placeholder="(ddd) xxxxxxxx" name="wsapp" id="wsapp">
+  					</div>
+  					<div class="checkbox">
+  						<label >
+  							<input required type="checkbox"  id=""> Aceito os termos 
+  						</label>
+  					</div>
+  					<div class="form-group">
+  						<label ></label>
+  						<input class="btn btn-sucess" type="submit"  id="">
+  					</div>
+  				</form>
+  				
+  		</div><!-- fim parte direita-->
 
-					
-					
-					<div class="form-group">
-						<label for="nome">Whatsapp: </label>
-						<div class="checkbox">
-						<label >
-							<input type="checkbox"  id=""> Aceito receber promoções por Whatsapp 
-						</label>
-						
-					</div>
-						<input class="form-control" type="text" placeholder="WTSP: (ddd) xxxxxxxx" id="wzp">
-					</div>
-					<!--<div class="radio">
-						<label >
-							<input type="radio" id="" name="termos">Aceito os termos
-						</label>
-						<label >
-							<input type="radio"  id="" name="termos">Não aceito os termos
-						</label>
-					</div>-->
-					<div class="checkbox">
-						<label >
-							<input type="checkbox"  id=""> Aceito os termos 
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label ></label>
-						<input class="btn btn-sucess" type="submit"  id="">
-					</div>
-					
 
-				</form>
-				
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4  ">
-			<h3>Desejo ser um parceiro</h3>
-			<form >
-					<div class="form-group">
-						<label for="nome2">Nome </label>
-						<input class="form-control" type="text" placeholder="Nome:" id="nome2">
-					</div>	
-					<div class="form-group">
-						<label for="email2">E-mail</label>
-						<input class="form-control" type="email" placeholder="email:" id="email2">
-					</div>
-					<div class="checkbox">
-						<label>
-							<input type="checkbox"  id=""> Aceito os termos 
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label ></label>
-						<input class="btn btn-sucess" type="submit"  id="">
-					</div>
+  		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4  ">
+  			<h3>Desejo ser um parceiro</h3>
 
-				</form>
-		</div>
+  			<form role="form" action="cadastroParceiros.php" method="post">
+  				<div class="form-group">
+  					<label for="nome2">Nome </label>
+  					<input required class="form-control" type="text" placeholder="Nome:" name="nomeparceiro" id="nomeparceiro">
+  				</div>	
+  				<div class="form-group">
+  					<label for="email2">E-mail</label>
+  					<input required class="form-control" type="email" placeholder="email:" name="mailpar" id="mailpar">
+  				</div>
+  				<div class="checkbox">
+  					<label>
+  						<input required type="checkbox"  id=""> Aceito os termos 
+  					</label>
+  				</div>
+  				<div class="form-group">
+  					<label ></label>
+  					<input class="btn btn-sucess" type="submit"  id="">
+  				</div>
+  			</form>
 
-   		</div>
+  		</div>
 
-   	</div> 
+ 		</div>
+
+ 	</div> 
 
 
        	
-    <div class="row">
-        <div class="col-xs-12 centro tamanho">
-          <footer class="footer">
-            <div class="container ">
-              	<p class="pull-right"><a href="#">Voltar ao topo</a></p>
-              	<p>
-                <a href="" target="_blank"></a>  
-                <a href="3" target="_blank"></a>
-           		</p>
+  <div class="row">
+      <div class="col-xs-12 centro tamanho">
+        <footer class="footer">
+          <div class="container ">
+            	<p class="pull-right"><a href="#">Voltar ao topo</a></p>
+            	<p>
+              <a href="" target="_blank"></a>  
+              <a href="3" target="_blank"></a>
+         		</p>
 
-              	<p>Este site esta em construção<a href="#"></a>.</p>
-              	<p><a href="" target="_blank">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Facebook</a></li>
-                <li class="muted">&middot;</li>
-                <li><a href="#">problemas</a></li>
-                <li class="muted">&middot;</li>
-                <li><a href="#">Nossa Comunicação Produções</a></li>
-              </ul>
-            </div>
-           </footer>
-        </div>
-        
-       
+            	<p>Este site esta em construção<a href="#"></a>.</p>
+            	<p><a href="" target="_blank">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Facebook</a></li>
+              <li class="muted">&middot;</li>
+              <li><a href="#">problemas</a></li>
+              <li class="muted">&middot;</li>
+              <li><a href="#">Nossa Comunicação Produções</a></li>
+            </ul>
+          </div>
+         </footer>
       </div>
+      
+     
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
